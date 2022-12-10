@@ -1,0 +1,3 @@
+# building settings
+markdown: kramdown
+theme: minima
