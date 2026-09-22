@@ -33,7 +33,8 @@ body {
 .masthead__inner-wrap .site-name:hover { color: #1a73e8; }
 /* the nav must stay wide, or greedy-nav measures a narrow bar and hides links */
 .masthead__menu { flex: 1; padding: 0; }
-.greedy-nav { background: transparent; min-height: 0; justify-content: flex-end; }
+.greedy-nav { display: flex; align-items: center; justify-content: flex-end;
+              background: transparent; min-height: 0; }
 .greedy-nav .visible-links { flex: 0 0 auto; }
 .greedy-nav a { color: #202124; font-size: .82em; letter-spacing: .01em; }
 .greedy-nav .visible-links a:before { display: none; }
