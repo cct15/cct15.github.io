@@ -13,16 +13,30 @@ body {
 }
 
 /* --- masthead: name left, links right, hairline rule --- */
+/* The site name is pulled out of the greedy nav (see _includes/masthead.html);
+   leaving it inside made the nav measure itself as overflowing. */
 .masthead { border-bottom: 1px solid #ededed; }
-.masthead__inner-wrap { max-width: 1080px; margin: 0 auto; padding: .75em 1.5em; }
-.greedy-nav { background: transparent; min-height: 2.6em; }
-.greedy-nav .visible-links { display: flex; align-items: center; }
-.greedy-nav .masthead__menu-item--lg { margin-right: auto; }
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: .9em 1.5em;
+}
+.masthead__inner-wrap .site-name {
+  font-size: .95em;
+  color: #202124;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.masthead__inner-wrap .site-name:hover { color: #1a73e8; }
+.masthead__menu { width: auto; padding: 0; }
+.greedy-nav { background: transparent; min-height: 0; }
 .greedy-nav a { color: #202124; font-size: .82em; letter-spacing: .01em; }
-.greedy-nav .masthead__menu-item--lg a { font-size: .95em; font-weight: 400; }
 .greedy-nav .visible-links a:before { display: none; }
 .greedy-nav a:hover { color: #1a73e8; }
-.greedy-nav button { color: #202124; }
+.greedy-nav button { background: transparent; }
 
 /* --- one centred column, no sidebar --- */
 #main { max-width: 860px; margin: 0 auto; padding: 0 1.6em; }
