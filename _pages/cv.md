@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download as PDF](/files/cv.pdf)
+[Download as PDF](/files/cv.pdf){: .btn}
 
 Education
 ======

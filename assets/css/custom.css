@@ -1,0 +1,63 @@
+/* Overrides on top of the academicpages theme. Self-contained: deleting this
+   file and its <link> in _includes/head/custom.html restores the stock look. */
+
+/* --- reading rhythm --- */
+.page__content p,
+.page__content li { line-height: 1.72; }
+.page__content p { margin-bottom: 1.1em; }
+
+/* --- opening line --- */
+.page__content p.lede {
+  font-size: 1.18em;
+  line-height: 1.55;
+  color: #2f3238;
+  margin-bottom: 1.6em;
+}
+
+/* --- section headings --- */
+.page__content h2 {
+  margin-top: 2.2em;
+  margin-bottom: .7em;
+  padding-top: .55em;
+  border-top: 1px solid #e6e8ea;
+  font-size: 1.15em;
+  letter-spacing: .01em;
+}
+.page__content h2 + p { margin-top: 0; }
+
+/* --- the three roles, and the open problems --- */
+.page__content p.role,
+.page__content p.problem {
+  border-left: 3px solid #e0e3e6;
+  padding-left: 1em;
+  margin-bottom: 1.15em;
+}
+.page__content p.role strong,
+.page__content p.problem strong { color: #1b1d20; }
+.page__content p.problem { border-left-color: #cfd4d9; }
+
+/* --- page title --- */
+.page__title { line-height: 1.25; margin-bottom: .8em; font-size: 1.6em; }
+
+/* --- buttons --- */
+.page__content .btn { margin: .3em 0 1.4em; }
+.page__content .btn--primary {
+  background-color: #1b1d20;
+  border: 0;
+  padding: .7em 1.3em;
+  font-size: .78em;
+  letter-spacing: .04em;
+  border-radius: 3px;
+}
+.page__content .btn--primary:hover { background-color: #33373d; }
+
+/* --- sidebar --- */
+.author__name { font-size: 1em; }
+.author__bio { line-height: 1.5; }
+
+/* --- keep both nav items visible on small screens --- */
+@media (max-width: 37.5em) {
+  .masthead__inner-wrap { padding-left: .8em; padding-right: .8em; }
+  .greedy-nav .site-title { font-size: .95em; margin-right: .4em; }
+  .greedy-nav a { padding: 0 .55rem; }
+}

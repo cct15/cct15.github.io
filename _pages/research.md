@@ -31,3 +31,9 @@ Models pooled across asset classes and venues, and the question of how much pred
 ## Market microstructure
 
 What is genuinely predictable at sub-second horizons, what is predictable only at the moment a decision is made, and where the boundary sits between an edge and a faster way to lose.
+
+## Working on this
+
+I am looking for a researcher on the evaluation side — someone who would rather build the judge than the next signal. If these read like your problems, especially if your first reaction was to disagree with one, write to me.
+
+[Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
