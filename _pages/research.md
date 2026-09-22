@@ -6,16 +6,28 @@ redirect_from:
   - /research.html
 ---
 
-## Work in Progress
-### The Impact of Accessible Loans on Financial Behavior and Economic Outcomes: A Study of P2P Lending Platforms in China
+My work sits where automated search meets evaluation. A searcher that can propose ten thousand hypotheses a day turns the problem inside out: generation stops being the bottleneck, and almost everything that looks significant is an artifact of the search that found it. The questions below are the ones I am actually working on.
 
-<sup>**Introduction:** What is the impact of easily accessible loans on people's economic outcomes? Will it help them solve liquidity issues, pursue education, and start businesses, or will it lead to increased consumerism, frequent borrowing, and financial instability? This question is studied using the records of Peer-to-peer (P2P) lending platforms. P2P lending platforms, particularly popular in China from 2012 to 2017, allowed individuals to obtain loans by simply uploading their identification and financial information online without collateral.</sup>
+## Evaluation under search pressure
 
+How do you design a validator with enough statistical power that surviving it means something?
 
+- **Held-out data as a budget.** Treating unseen windows as a depletable resource with a quota ledger, rather than a test set that quietly gets reused until it means nothing. A window that has been opened is scored once and never returned to the search.
+- **Zero-alpha calibration.** Running the full pipeline over panels known to contain no signal, to measure how much apparent performance the pipeline manufactures on its own. That number is the floor any real result has to clear.
+- **Scoring the scorer.** Keeping an answer book of candidates that once passed and later failed, and grading every new check by what it catches and what it lets through. A check that cannot catch a known historical failure does not get added.
 
-### How College Admission Policy Impacts Education Equality and Social Mobility: Application VS Unified Examination
+## What may evolve, and what must not
 
-<sup>**Introduction:** Higher education has a great impact on economic growth and social mobility. Highly selective colleges provide students with better skills and make them more likely to reach higher incomes in the future. There are two major types of admission policies around the world: application-based and unified exam-based. For example, in the US, students apply to colleges based on their SAT/ACT scores and related materials. While in China, college admission is based entirely on the standardized exam (Gaokao). Students use their exam scores for all colleges. This paper aims to compare the two college admission policies in terms of education equality and social mobility, to determine which policy provides more opportunities to students from low-income families.</sup>
+A self-improving research system needs an explicit boundary. The search may rewrite its own operators, priors and representations. The judge, the data-access layer and the statistical conventions have to stay fixed, versioned and outside the system's reach — otherwise the system optimizes the examiner instead of the answer. I am interested in where that line belongs and how it fails when it is drawn in the wrong place.
 
-### Cross-industry Acquisition by Digital Platforms
-<sup>**with Yangguang Huang (HKUST) and Junbao Li (SJTU)**</sup>
+## Where language models actually help
+
+Hypothesis generation, literature grounding and implementation — under a hard publication-date cutoff, so a model cannot cite results that postdate the problem it was asked to solve. Not evaluation. The asymmetry is the point: a model that both proposes and judges converges on being convincing rather than on being right.
+
+## Transfer across markets
+
+Models pooled across asset classes and venues, and the question of how much predictive power survives a market the model has never seen. My working position is that measurement methods transfer and numbers do not — noise scale, decay half-life and health bands have to be re-estimated per market before any cross-market claim is admissible.
+
+## Market microstructure
+
+What is genuinely predictable at sub-second horizons, what is predictable only at the moment a decision is made, and where the boundary sits between an edge and a faster way to lose.

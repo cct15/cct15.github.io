@@ -10,7 +10,7 @@ locale                   : "en_HK"
 title                    : "Chutian Chen"
 title_separator          : "-"
 name                     : &name "Chutian Chen"
-description              : &description ""
+description              : &description "Founder of Futuristic Group. Research on self-evolving research systems, with quantitative finance as the testbed."
 url                      : https://cct15.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/cct15/cct15.github.io/"
@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -73,18 +73,18 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Chutian Chen"
+  name             : "Chutian Chen (Curtis)"
   avatar           : "profile.jpeg"
-  bio              : "2nd-year Econ Phd Student at HKUST"
+  bio              : "Founder, Futuristic Group · Co-founder, Quanta Edge · PhD candidate at HKUST"
   location         : "Hong Kong"
-  employer         :
+  employer         : "Futuristic Group"
   pubmed           : #""
   googlescholar    : #""
   email            : "cchencs@connect.ust.hk"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"https://github.com/cct15"
+  github           : "https://github.com/cct15"
   google_plus      :
   keybase          :
   instagram        :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
