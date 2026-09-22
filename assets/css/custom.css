@@ -42,7 +42,7 @@ body {
 .greedy-nav button { background: transparent; }
 
 /* --- one centred column, no sidebar --- */
-#main { max-width: 860px; margin: 0 auto; padding: 0 1.6em; }
+#main { max-width: 780px; margin: 0 auto; padding: 0 1.6em; }
 .page { width: 100%; float: none; padding-right: 0; }
 .page__inner-wrap { margin-top: 0; }
 
@@ -53,14 +53,14 @@ body {
   font-weight: 500;
   color: #202124;
   line-height: 1.35;
-  margin: 2.4em 0 2.2em;
+  margin: 2.2em 0 1.9em;
   border: 0;
 }
 
 /* --- body copy: open, black-on-white --- */
 .page__content { font-size: 1em; }
 .page__content p,
-.page__content li { line-height: 1.85; color: #3c4043; }
+.page__content li { line-height: 1.8; color: #202124; }
 .page__content p { margin: 0 0 1.5em; }
 .page__content a { color: #1a73e8; text-decoration: none; }
 .page__content a:hover { text-decoration: underline; }
@@ -78,7 +78,7 @@ body {
 .page__content ul { margin-bottom: 1.5em; }
 
 /* --- headshot beside the opening text --- */
-.intro { display: flex; align-items: flex-start; gap: 2.4em; margin-bottom: 3em; }
+.intro { display: flex; align-items: flex-start; gap: 2.4em; margin-bottom: 2.4em; }
 .intro-text { flex: 1; }
 .intro-text p:last-child { margin-bottom: 0; }
 .headshot { flex: 0 0 210px; width: 210px; border-radius: 2px; margin: .35em 0 0; }
@@ -96,7 +96,7 @@ body {
 
 /* --- quiet footer --- */
 .page__footer { border-top: 1px solid #ededed; color: #80868b; margin-top: 4em; }
-.page__footer footer { max-width: 860px; margin: 0 auto; padding: 1.6em 1.6em 2.4em; }
+.page__footer footer { max-width: 780px; margin: 0 auto; padding: 1.6em 1.6em 2.4em; }
 .page__footer a { color: #80868b; }
 
 @media (max-width: 37.5em) {
