@@ -36,17 +36,6 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/custom.css?v={{ site.time | date: '%s' }}">
-<style>
-/* Inline on purpose: the theme's greedy nav measures the bar on DOM ready, so
-   these have to apply before an external stylesheet finishes loading —
-   otherwise the title is measured at full size and CV is pushed into the
-   hamburger. */
-@media (max-width: 37.5em) {
-  .masthead__inner-wrap { padding-left: .7em; padding-right: .7em; }
-  .greedy-nav .masthead__menu-item--lg a { font-size: .75em !important; }
-  .greedy-nav .masthead__menu-item a { padding-left: .4rem !important; padding-right: .4rem !important; }
-}
-</style>
 <meta property="og:image" content="{{ site.url }}/images/profile.png">
 
 <!-- end custom head snippets -->
