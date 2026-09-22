@@ -56,8 +56,10 @@
 .author__bio { line-height: 1.5; }
 
 /* --- keep both nav items visible on small screens --- */
+/* The theme's greedy nav pushes the last item into the hamburger when the bar
+   runs out of room; shrinking the title buys enough space for CV. */
 @media (max-width: 37.5em) {
-  .masthead__inner-wrap { padding-left: .8em; padding-right: .8em; }
-  .greedy-nav .site-title { font-size: .95em; margin-right: .4em; }
-  .greedy-nav a { padding: 0 .55rem; }
+  .masthead__inner-wrap { padding-left: .7em; padding-right: .7em; }
+  .greedy-nav .masthead__menu-item--lg a { font-size: .78em; }
+  .greedy-nav .masthead__menu-item a { padding-left: .45rem; padding-right: .45rem; }
 }
