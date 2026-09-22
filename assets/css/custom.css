@@ -1,56 +1,90 @@
-/* Overrides on top of the academicpages theme. Self-contained: deleting this
-   file and its <link> in _includes/head/custom.html restores the stock look. */
+/* Overrides on top of the academicpages theme: white, plain, open — closer to a
+   Google Sites academic page than to the theme's default grey chrome.
+   Self-contained: delete this file and its <link> in _includes/head/custom.html
+   to restore the stock look. */
 
-/* --- reading rhythm --- */
-.page__content p,
-.page__content li { line-height: 1.72; }
-.page__content p { margin-bottom: 1.1em; }
-
-/* --- opening line --- */
-.page__content p.lede {
-  font-size: 1.18em;
-  line-height: 1.55;
-  color: #2f3238;
-  margin-bottom: 1.6em;
+/* --- white everywhere; the theme's grey is what made it look dirty --- */
+html, body, .masthead, .greedy-nav, .page__footer, .initial-content {
+  background-color: #fff;
+}
+body {
+  color: #202124;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* --- section headings --- */
-.page__content h2 {
-  margin-top: 2.2em;
-  margin-bottom: .7em;
-  padding-top: .55em;
-  border-top: 1px solid #e6e8ea;
-  font-size: 1.15em;
-  letter-spacing: .01em;
-}
-.page__content h2 + p { margin-top: 0; }
+/* --- masthead: name left, links right, hairline rule --- */
+.masthead { border-bottom: 1px solid #ededed; }
+.masthead__inner-wrap { max-width: 1080px; margin: 0 auto; padding: .75em 1.5em; }
+.greedy-nav { background: transparent; min-height: 2.6em; }
+.greedy-nav .visible-links { display: flex; align-items: center; }
+.greedy-nav .masthead__menu-item--lg { margin-right: auto; }
+.greedy-nav a { color: #202124; font-size: .82em; letter-spacing: .01em; }
+.greedy-nav .masthead__menu-item--lg a { font-size: .95em; font-weight: 400; }
+.greedy-nav .visible-links a:before { display: none; }
+.greedy-nav a:hover { color: #1a73e8; }
+.greedy-nav button { color: #202124; }
 
-/* --- the three roles, and the open problems --- */
-.page__content p.role,
-.page__content p.problem {
-  border-left: 3px solid #e0e3e6;
-  padding-left: 1em;
-  margin-bottom: 1.15em;
-}
-.page__content p.role strong,
-.page__content p.problem strong { color: #1b1d20; }
-.page__content p.problem { border-left-color: #cfd4d9; }
+/* --- one centred column, no sidebar --- */
+#main { max-width: 860px; margin: 0 auto; padding: 0 1.6em; }
+.page { width: 100%; float: none; padding-right: 0; }
+.page__inner-wrap { margin-top: 0; }
 
-/* --- page title --- */
-.page__title { line-height: 1.25; margin-bottom: .8em; font-size: 1.6em; }
-
-/* --- buttons --- */
-.page__content .btn { margin: .3em 0 1.4em; }
-.page__content .btn--primary {
-  background-color: #1b1d20;
+/* --- centred page title, like the reference --- */
+.page__title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #202124;
+  line-height: 1.35;
+  margin: 2.4em 0 2.2em;
   border: 0;
-  padding: .7em 1.3em;
-  font-size: .78em;
-  letter-spacing: .04em;
-  border-radius: 3px;
 }
-.page__content .btn--primary:hover { background-color: #33373d; }
 
-/* --- sidebar --- */
-.author__name { font-size: 1em; }
-.author__bio { line-height: 1.5; }
+/* --- body copy: open, black-on-white --- */
+.page__content { font-size: 1em; }
+.page__content p,
+.page__content li { line-height: 1.85; color: #3c4043; }
+.page__content p { margin: 0 0 1.5em; }
+.page__content a { color: #1a73e8; text-decoration: none; }
+.page__content a:hover { text-decoration: underline; }
+.page__content strong { color: #202124; font-weight: 500; }
+.page__content p.lede { font-size: 1.05em; color: #202124; margin-bottom: 1.8em; }
+.page__content h2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #202124;
+  border: 0;
+  padding: 0;
+  margin: 3em 0 1.1em;
+}
+.page__content h3 { font-size: 1em; font-weight: 500; color: #202124; margin: 2em 0 .8em; }
+.page__content ul { margin-bottom: 1.5em; }
+
+/* --- headshot beside the opening text --- */
+.intro { display: flex; align-items: flex-start; gap: 2.4em; margin-bottom: 3em; }
+.intro-text { flex: 1; }
+.intro-text p:last-child { margin-bottom: 0; }
+.headshot { flex: 0 0 210px; width: 210px; border-radius: 2px; margin: .35em 0 0; }
+
+/* --- call to action --- */
+.page__content .btn {
+  margin: .2em 0 2em;
+  border-radius: 4px;
+  font-size: .78em;
+  letter-spacing: .02em;
+  padding: .8em 1.5em;
+}
+.page__content .btn--primary { background-color: #1a73e8; border: 0; }
+.page__content .btn--primary:hover { background-color: #1765cc; }
+
+/* --- quiet footer --- */
+.page__footer { border-top: 1px solid #ededed; color: #80868b; margin-top: 4em; }
+.page__footer footer { max-width: 860px; margin: 0 auto; padding: 1.6em 1.6em 2.4em; }
+.page__footer a { color: #80868b; }
+
+@media (max-width: 37.5em) {
+  .page__title { margin: 1.8em 0 1.6em; }
+  .intro { flex-direction: column; align-items: center; gap: 1.6em; text-align: left; }
+  .headshot { flex: none; width: 170px; margin: 0; }
+  #main { padding: 0 1.2em; }
+}

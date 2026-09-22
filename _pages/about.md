@@ -2,14 +2,25 @@
 permalink: /
 title: "Research systems that search on their own"
 excerpt: "A research lab that trades its own book. We build the evaluator, not just the search."
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<div class="intro" markdown="1">
+
+![Chutian Chen](/images/profile.jpeg){: .headshot}
+
+<div class="intro-text" markdown="1">
+
 I build research systems that search for trading strategies on their own, and I run the firms that put them to work.
 {: .lede}
+
+Email: [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
+
+</div>
+</div>
 
 **Founder, Futuristic Group.** Futuristic is a research lab that trades its own book, with tokenized real-world assets as its main line. Its work is a self-evolving research engine: hypotheses are generated and tested automatically, while the evaluation protocol stays in human hands and the engine is not permitted to edit it. Unseen data is treated as a consumable budget — every read is logged against a quota, and a window that has been opened is never returned to the search. Strategies are the output; the engine is the asset.
 {: .role}
