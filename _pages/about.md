@@ -57,9 +57,9 @@ Three bets behind it:
 **Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
 {: .record-intro}
 
-- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund, net of costs, May to September 2026.
-- **Prediction markets, on-chain.** About 3,000 trades on Polymarket's five-minute BTC markets in two months, every one public.
-- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026.
+- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund: +10.3% net of costs in five months (May to September 2026) with a maximum drawdown of 1.5%; the lower-risk book +6.1% with a drawdown under 1%.
+- **Prediction markets, on-chain.** A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 trades in two months, every one public, and roughly five times its starting capital earned in its best month.
+- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026: contract KPIs met in the first month, and a reactive-cancellation layer that adds about 0.9 bp per fill.
 {: .proof}
 
 </section>
