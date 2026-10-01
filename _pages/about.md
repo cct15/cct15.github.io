@@ -52,8 +52,6 @@ We are hiring an **HFT trader**, an **AI researcher** and a **Chief Scientist**.
 
 ## Background
 
-Before Quanta Edge I founded **Futuristic Group** (2025–2026), a proprietary trading firm. I built its research and trading stack end to end, put market making in tokenized equities live at 94% KPI satisfaction, and set the bar a signal had to clear before it was allowed to trade capital.
-
-Earlier: strategy product at **Alibaba** (Taobao Live), where recommendation-system experiments added four million new users a day within four months; reinforcement-learning FX models at **Graphen**, New York, taken from flat to a 10% monthly return; AI research at **Megvii**.
+Before Quanta Edge I founded **Futuristic Group** (2025–2026), a proprietary trading firm: built its research and trading stack from nothing, took systematic strategies and on-chain market making in tokenized equities live, and set the bar a signal had to clear before it traded capital. Earlier, AI research at **Megvii** and reinforcement-learning trading at **Graphen**, New York.
 
 Columbia (M.S. Computer Science) · Peking University (Economics) · Tsinghua (Engineering Physics). [CV](/cv/)

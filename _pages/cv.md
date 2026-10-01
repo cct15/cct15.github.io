@@ -26,12 +26,8 @@ Experience
 * **Futuristic Group Ltd** — Founder, 2025–2026. Hong Kong.
   * Founded a proprietary trading firm running systematic strategies and on-chain market making, with tokenized real-world assets as its main line.
   * Built the research and trading stack end to end: data infrastructure across venues, a validation framework with walk-forward testing and a pre-deployment audit, and live monitoring that ties realised PnL back to the backtest that authorised the position.
-  * Market making in tokenized equities: two symbols live from August 2026 at 94% KPI satisfaction.
+  * Took on-chain market making in tokenized equities live in 2026.
   * Led strategy research, and set the standard a signal had to clear before it was allowed to trade capital.
-
-* **Alibaba**, Taobao Live — Data & Strategy Product Manager, 2021–2022. Beijing, China.
-  * Led the strategy products for Taobao Live user growth; ran A/B experiments on the recommendation system, adding four million new users a day within four months.
-  * Optimised recommendations for users with sparse purchase histories.
 
 * **Graphen, Inc.**, Market Intelligence — Research Assistant, 2020. New York, USA.
   * Reinforcement-learning models for high-frequency FX trading; took the model from flat to a 10% monthly return.
