@@ -57,10 +57,36 @@ Three bets behind it:
 **Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
 {: .record-intro}
 
-- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund: +10.3% net of costs in five months (May to September 2026) with a maximum drawdown of 1.5%; the lower-risk book +6.1% with a drawdown under 1%.
-- **Prediction markets, on-chain.** A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 trades in two months, every one public, and roughly five times its starting capital earned in its best month.
-- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026: contract KPIs met in the first month, and a reactive-cancellation layer that adds about 0.9 bp per fill.
-{: .proof}
+<div class="stats" markdown="1">
+
+<div class="stat" markdown="1">
+Sharpe 4.3
+{: .stat-n}
+Agent alpha, live
+{: .stat-l}
+Agent-mined signals on 50 crypto markets, run live through a partner fund. +10.3% net of costs in five months, max drawdown 1.5% (May to September 2026).
+{: .stat-p}
+</div>
+
+<div class="stat" markdown="1">
++500% in a month
+{: .stat-n}
+Prediction markets, on-chain
+{: .stat-l}
+A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 public trades in two months, and a top-30 leaderboard finish.
+{: .stat-p}
+</div>
+
+<div class="stat" markdown="1">
+3 DEXs
+{: .stat-n}
+Designated market maker
+{: .stat-l}
+Market maker for tokenized Asian equities on three on-chain perp exchanges. First-month KPIs met; reactive cancellation adds about 0.9 bp per fill.
+{: .stat-p}
+</div>
+
+</div>
 
 </section>
 

@@ -152,6 +152,19 @@ body {
 .home .page__content .tile p.tile-h { font-weight: 500; margin-top: .8em; margin-bottom: .25em; }
 .home .page__content .tile p.tile-p { color: #5f6368; margin-bottom: 1em; }
 
+/* proof stats */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6em; }
+.home .page__content .stat p { margin: 0; }
+.home .page__content .stat p.stat-n {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 2em;
+  line-height: 1.1;
+  color: #202124;
+  margin-bottom: .3em;
+}
+.home .page__content .stat p.stat-l { font-weight: 500; font-size: .9375em; margin-bottom: .35em; }
+.home .page__content .stat p.stat-p { font-size: .9375em; line-height: 1.55; color: #5f6368; }
+
 /* building */
 .home .page__content p.building-text { margin-bottom: 1.6em; }
 .figure { margin: 0 0 1.8em; }
@@ -184,7 +197,7 @@ body {
 .home .page__content p.bg { font-size: .875em; color: #5f6368; margin: 0; }
 
 @media (max-width: 48em) {
-  .tiles { grid-template-columns: 1fr; }
+  .tiles, .stats { grid-template-columns: 1fr; }
   .home .page__content p.lede { font-size: 1.35em; }
 }
 
