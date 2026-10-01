@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" role="img" aria-label="Two-sided quotes around the mid price for a tokenized equity, with hedges on the underlying market">
+  <rect width="800" height="400" fill="#fff"/>
+  <g font-family="Roboto, -apple-system, Helvetica, Arial, sans-serif">
+    <!-- ladder -->
+    <g font-size="15">
+      <!-- asks -->
+      <g fill="#c5221f">
+        <rect x="430" y="60"  width="190" height="26" rx="3" fill="#fce8e6"/>
+        <rect x="430" y="96"  width="150" height="26" rx="3" fill="#fce8e6"/>
+        <rect x="430" y="132" width="110" height="26" rx="3" fill="#fce8e6"/>
+        <text x="440" y="78">ask</text>
+        <text x="440" y="114">ask</text>
+        <text x="440" y="150">ask</text>
+        <text x="612" y="78"  text-anchor="end">ours</text>
+        <text x="572" y="114" text-anchor="end">ours</text>
+        <text x="532" y="150" text-anchor="end">ours</text>
+      </g>
+      <!-- mid -->
+      <line x1="180" y1="200" x2="620" y2="200" stroke="#202124" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <text x="400" y="190" font-size="12" fill="#5f6368" text-anchor="middle" letter-spacing="1.2">MID · TOKENIZED EQUITY</text>
+      <!-- bids -->
+      <g fill="#188038">
+        <rect x="180" y="242" width="110" height="26" rx="3" fill="#e6f4ea"/>
+        <rect x="180" y="278" width="150" height="26" rx="3" fill="#e6f4ea"/>
+        <rect x="180" y="314" width="190" height="26" rx="3" fill="#e6f4ea"/>
+        <text x="282" y="260" text-anchor="end">bid</text>
+        <text x="322" y="296" text-anchor="end">bid</text>
+        <text x="362" y="332" text-anchor="end">bid</text>
+        <text x="188" y="260">ours</text>
+        <text x="188" y="296">ours</text>
+        <text x="188" y="332">ours</text>
+      </g>
+    </g>
+    <!-- hedge leg -->
+    <path d="M620 200 L700 200" stroke="#1a73e8" stroke-width="1.5"/>
+    <rect x="700" y="170" width="90" height="60" rx="6" fill="#fff" stroke="#1a73e8" stroke-width="1.5"/>
+    <text x="745" y="196" font-size="12" fill="#1a73e8" text-anchor="middle">hedge on the</text>
+    <text x="745" y="214" font-size="12" fill="#1a73e8" text-anchor="middle">underlying</text>
+    <!-- left labels -->
+    <text x="20" y="80"  font-size="12" fill="#5f6368">continuous two-sided quotes</text>
+    <text x="20" y="100" font-size="12" fill="#5f6368">on an on-chain perp exchange</text>
+    <text x="20" y="340" font-size="12" fill="#5f6368">inventory and risk</text>
+    <text x="20" y="360" font-size="12" fill="#5f6368">managed by our own stack</text>
+  </g>
+</svg>

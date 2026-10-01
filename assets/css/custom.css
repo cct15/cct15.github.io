@@ -154,6 +154,16 @@ body {
 .home .page__content .card p.card-when { font-size: .72em; letter-spacing: .1em; text-transform: uppercase; color: #80868b; margin-bottom: .5em; }
 .home .page__content .card p.card-who { font-size: .95em; margin-bottom: .6em; }
 
+/* record: Futuristic Group tiles */
+.home .page__content p.record-intro { margin-bottom: 1.6em; }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4em; }
+.tile { border: 1px solid #e3e3e3; border-radius: 6px; overflow: hidden; }
+.tile .tile-img { display: block; background: #fff; border-bottom: 1px solid #ededed; }
+.tile .tile-img img { display: block; width: 100%; height: 150px; object-fit: contain; padding: .6em; box-sizing: border-box; }
+.home .page__content .tile p { margin: 0 1.1em; }
+.home .page__content .tile p.tile-h { font-weight: 500; font-size: .95em; line-height: 1.4; margin-top: .9em; margin-bottom: .4em; }
+.home .page__content .tile p.tile-p { font-size: .86em; line-height: 1.6; color: #3c4043; margin-bottom: 1.1em; }
+
 /* claims */
 .claims { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.2em; }
 .home .page__content .claim p { margin: 0; }
@@ -204,7 +214,8 @@ body {
 .home .page__content p.bg { font-size: .88em; color: #5f6368; line-height: 1.7; margin: 0; }
 
 @media (max-width: 48em) {
-  .cards, .claims { grid-template-columns: 1fr; }
+  .cards, .claims, .tiles { grid-template-columns: 1fr; }
+  .tile .tile-img img { height: 180px; }
   .home .page__content p.lede { font-size: 1.42em; }
 }
 

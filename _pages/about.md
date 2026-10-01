@@ -28,33 +28,36 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 
 <section class="record" markdown="1">
 
-## Where this comes from
+## What I built before this
 {: .label}
 
-<div class="cards" markdown="1">
+**Futuristic Group**, 2025–2026. A proprietary trading firm I founded and ran from the first line of code to live capital: three lines, one research stack, every position traceable to the test that let it trade.
+{: .record-intro}
 
-<div class="card" markdown="1">
-2025–2026
-{: .card-when}
-**Futuristic Group**, founder
-{: .card-who}
-Built a proprietary trading firm from nothing and took it live: systematic strategies and on-chain market making in tokenized equities. Set the bar a signal had to clear before it traded capital.
+<div class="tiles" markdown="1">
+
+<div class="tile" markdown="1">
+<a class="tile-img" href="/images/ft_alpha_live_202609.png"><img src="/images/ft_alpha_live_202609.png" alt="Cumulative net return of two live books, May to September 2026: higher risk budget +10.3% with max drawdown 1.51%, lower risk budget +6.1% with max drawdown 0.97%." loading="lazy"></a>
+Mid-frequency agent alpha
+{: .tile-h}
+Signals mined by agents from on-chain order flow, run live through a partner fund across 50 crypto markets. Two risk budgets, net of all costs, May to September 2026.
+{: .tile-p}
 </div>
 
-<div class="card" markdown="1">
-2026–
-{: .card-when}
-**Quanta Edge**, co-founder
-{: .card-who}
-A trading-infrastructure firm: strategy production and the low-latency stack beneath it. We trade our own book on it and provide it as a service.
+<div class="tile" markdown="1">
+<a class="tile-img" href="/images/ft_polymarket_202607.png"><img src="/images/ft_polymarket_202607.png" alt="Polymarket profile FT-test: joined May 2026, 2,930 predictions, profit and loss for the past month +$5,829.81." loading="lazy"></a>
+Prediction markets, every trade on-chain
+{: .tile-h}
+A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 predictions in its first two months, publicly verifiable on-chain. Snapshot July 2026.
+{: .tile-p}
 </div>
 
-<div class="card" markdown="1">
-Research
-{: .card-when}
-**HKUST**, PhD candidate
-{: .card-who}
-Self-evolving research systems: agents search, the judge stays frozen, and unseen data is spent like a budget.
+<div class="tile" markdown="1">
+<a class="tile-img" href="/images/ft_mm.svg"><img src="/images/ft_mm.svg" alt="Stylised order book: our bids and asks on both sides of the mid price for a tokenized equity, hedged on the underlying market." loading="lazy"></a>
+Market maker for tokenized equities
+{: .tile-h}
+Contracted market maker on a leading on-chain perp exchange for tokenized Asian equities, live since August 2026, and appointed exclusive market maker for a second exchange ahead of its mainnet launch. Quoting and hedging stack built in-house.
+{: .tile-p}
 </div>
 
 </div>
