@@ -102,6 +102,7 @@ body {
 
 .home section { margin: 0 0 4.2em; }
 .home section:first-child { margin-top: 2.6em; }
+.home section:last-child { margin-bottom: 1em; }
 
 /* section label */
 .home .page__content h2.label {
