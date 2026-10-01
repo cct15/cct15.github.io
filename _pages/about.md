@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Curtis Chen (Chutian)"
-excerpt: "Founder of Neolab and co-founder of Quanta Edge: trading infrastructure where agents search for strategies and for the low-latency hardware that executes them."
+excerpt: "Co-founder of Quanta Edge: trading infrastructure where agents search for strategies and for the low-latency hardware that executes them."
 author_profile: false
 redirect_from: 
   - /about/
@@ -24,7 +24,7 @@ Email: [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
 
 ## Now
 
-**Neolab** (founder) and **Quanta Edge** (co-founder) are one direction: trading infrastructure, meaning both strategy production and the low-latency stack beneath it. Quanta Edge trades its own book on that infrastructure and provides it as a service; Neolab builds the agents that produce the strategies and the hardware.
+**Quanta Edge** — co-founder. A trading-infrastructure firm: strategy production and the low-latency stack beneath it, built on high-frequency hardware and on agents that accelerate research on both strategies and chip design. We trade our own book on that infrastructure and provide it as a service.
 
 The testbed is a live high-frequency trading operation with the research engine wired into it:
 

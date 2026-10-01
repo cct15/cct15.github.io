@@ -18,8 +18,8 @@ Education
 
 Experience
 ======
-* **Neolab** (Founder) and **Quanta Edge** (Co-founder) — 2026–present. Hong Kong.
-  * One direction: trading infrastructure, covering strategy production and the low-latency stack beneath it. Quanta Edge trades its own book on it and provides it as a service; Neolab builds the agents that produce the strategies and the hardware.
+* **Quanta Edge** — Co-founder, 2026–present. Hong Kong.
+  * A trading-infrastructure firm: strategy production and the low-latency stack beneath it, built on high-frequency hardware and on agents that accelerate research on both strategies and chip design. Proprietary trading on that infrastructure, and infrastructure as a service.
   * Agents generate and test candidates under a frozen evaluation protocol they cannot modify, with expensive verification — unseen market data, synthesis and place-and-route — managed as a logged, depletable budget.
   * Testbed: a live high-frequency trading operation with FPGA-based execution; the hardware design is searched by agents and judged on the real device — timing closure and delivered latency.
 
