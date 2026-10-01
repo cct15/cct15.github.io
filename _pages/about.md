@@ -26,21 +26,6 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 </div>
 </section>
 
-<section class="record" markdown="1">
-
-## Proof
-{: .label}
-
-**Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
-{: .record-intro}
-
-- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund, net of costs, May to September 2026.
-- **Prediction markets, on-chain.** About 3,000 trades on Polymarket's five-minute BTC markets in two months, every one public.
-- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026.
-{: .proof}
-
-</section>
-
 <section class="building" markdown="1">
 
 ## What I am building
@@ -61,6 +46,21 @@ Three bets behind it:
 - **Hardware follows.** One strategy, one piece of silicon, searched by agents and judged on the device.
 - **What cannot be generated decides the winner.** Unseen data, a build that closes timing, a venue to act on. They are spent, not made.
 {: .bets}
+
+</section>
+
+<section class="record" markdown="1">
+
+## Proof
+{: .label}
+
+**Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
+{: .record-intro}
+
+- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund, net of costs, May to September 2026.
+- **Prediction markets, on-chain.** About 3,000 trades on Polymarket's five-minute BTC markets in two months, every one public.
+- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026.
+{: .proof}
 
 </section>
 
