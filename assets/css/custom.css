@@ -1,5 +1,4 @@
-/* Overrides on top of the academicpages theme: white, plain, open — closer to a
-   Google Sites academic page than to the theme's default grey chrome.
+/* Overrides on top of the academicpages theme: white, plain, open.
    Self-contained: delete this file and its <link> in _includes/head/custom.html
    to restore the stock look. */
 
@@ -46,7 +45,7 @@ body {
 .page { width: 100%; float: none; padding-right: 0; }
 .page__inner-wrap { margin-top: 0; }
 
-/* --- centred page title, like the reference --- */
+/* --- centred page title (inner pages); the home page carries its own header --- */
 .page__title {
   text-align: center;
   font-size: 1.5em;
@@ -56,6 +55,7 @@ body {
   margin: 2.2em 0 1.9em;
   border: 0;
 }
+.page.home .page__title { display: none; }
 
 /* --- body copy: open, black-on-white --- */
 .page__content { font-size: 1em; }
@@ -77,12 +77,6 @@ body {
 .page__content h3 { font-size: 1em; font-weight: 500; color: #202124; margin: 2em 0 .8em; }
 .page__content ul { margin-bottom: 1.5em; }
 
-/* --- headshot beside the opening text --- */
-.intro { display: flex; align-items: flex-start; gap: 2.4em; margin-bottom: 2.4em; }
-.intro-text { flex: 1; }
-.intro-text p:last-child { margin-bottom: 0; }
-.headshot { flex: 0 0 210px; width: 210px; border-radius: 2px; margin: .35em 0 0; }
-
 /* --- call to action --- */
 .page__content .btn {
   margin: .2em 0 2em;
@@ -99,9 +93,126 @@ body {
 .page__footer footer { max-width: 780px; margin: 0 auto; padding: 1.6em 1.6em 2.4em; }
 .page__footer a { color: #80868b; }
 
+/* ======================================================================
+   Home page
+   One column, 780px. Section labels are small caps; the lede is set in a
+   serif so the one sentence that matters reads differently from everything
+   around it. Everything else stays Roboto.
+   ====================================================================== */
+
+.home section { margin: 0 0 4.2em; }
+.home section:first-child { margin-top: 2.6em; }
+
+/* section label */
+.home .page__content h2.label {
+  font-size: .74em;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #80868b;
+  margin: 0 0 1.4em;
+  padding-bottom: .9em;
+  border-bottom: 1px solid #ededed;
+}
+
+/* hero */
+.hero { display: flex; align-items: flex-start; gap: 2.6em; }
+.hero-text { flex: 1; min-width: 0; }
+.headshot {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: .3em 0 0;
+}
+.home .page__content p.kicker {
+  font-size: .82em;
+  color: #5f6368;
+  letter-spacing: .02em;
+  margin: 0 0 1em;
+}
+.home .page__content p.lede {
+  font-family: "Newsreader", Georgia, "Times New Roman", serif;
+  font-size: 1.62em;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: -.005em;
+  color: #202124;
+  margin: 0 0 1.1em;
+}
+.home .page__content p.hero-actions { margin: 0; display: flex; align-items: center; gap: 1.2em; flex-wrap: wrap; }
+.home .page__content p.hero-actions .btn { margin: 0; }
+.home .page__content a.hero-mail { font-size: .88em; color: #5f6368; }
+.home .page__content a.hero-mail:hover { color: #1a73e8; }
+
+/* record cards */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4em; }
+.card { padding: 1.2em 1.25em 1.1em; border: 1px solid #e3e3e3; border-radius: 6px; }
+.home .page__content .card p { font-size: .9em; line-height: 1.6; margin: 0; }
+.home .page__content .card p.card-when { font-size: .72em; letter-spacing: .1em; text-transform: uppercase; color: #80868b; margin-bottom: .5em; }
+.home .page__content .card p.card-who { font-size: .95em; margin-bottom: .6em; }
+
+/* claims */
+.claims { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.2em; }
+.home .page__content .claim p { margin: 0; }
+.home .page__content .claim p.claim-n {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.9em;
+  line-height: 1;
+  color: #dadce0;
+  margin-bottom: .45em;
+}
+.home .page__content .claim p.claim-h { font-size: 1.02em; line-height: 1.45; margin-bottom: .6em; }
+.home .page__content .claim p:last-child { font-size: .9em; line-height: 1.65; color: #3c4043; }
+
+/* building + figure */
+.home .page__content p.building-text { margin-bottom: 2em; }
+.figure { margin: 0; }
+.figure img { display: block; width: 100%; height: auto; }
+.figure figcaption {
+  font-family: "Roboto", sans-serif;
+  font-size: .8em;
+  color: #80868b;
+  text-align: center;
+  margin-top: .8em;
+}
+
+/* questions */
+.qs { display: grid; grid-template-columns: 1fr; gap: 1.5em; }
+.q { padding-left: 1.2em; border-left: 2px solid #1a73e8; }
+.home .page__content .q p { margin: 0; }
+.home .page__content .q p.q-h { margin-bottom: .3em; }
+.home .page__content .q p:last-child { font-size: .92em; line-height: 1.65; color: #3c4043; }
+.home .page__content p.more { margin: 1.8em 0 0; font-size: .9em; }
+
+/* join */
+.roles { display: flex; flex-wrap: wrap; gap: .6em; margin-bottom: 1.3em; }
+.home .page__content p.role {
+  margin: 0;
+  font-size: .82em;
+  letter-spacing: .02em;
+  padding: .45em .9em;
+  border: 1px solid #202124;
+  border-radius: 999px;
+}
+.home .page__content .join .btn { margin-bottom: 0; }
+
+/* background line */
+.home .background { padding-top: 1.6em; border-top: 1px solid #ededed; }
+.home .page__content p.bg { font-size: .88em; color: #5f6368; line-height: 1.7; margin: 0; }
+
+@media (max-width: 48em) {
+  .cards, .claims { grid-template-columns: 1fr; }
+  .home .page__content p.lede { font-size: 1.42em; }
+}
+
 @media (max-width: 37.5em) {
   .page__title { margin: 1.8em 0 1.6em; }
-  .intro { flex-direction: column; align-items: center; gap: 1.6em; text-align: left; }
-  .headshot { flex: none; width: 170px; margin: 0; }
   #main { padding: 0 1.2em; }
+  .home section:first-child { margin-top: 1.8em; }
+  .hero { flex-direction: column; align-items: flex-start; gap: 1.4em; }
+  .headshot { flex: none; width: 120px; height: 120px; }
+  .home .page__content p.lede { font-size: 1.3em; }
+  .home section { margin-bottom: 3.2em; }
 }

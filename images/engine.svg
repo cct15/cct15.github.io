@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-labelledby="t d">
+  <title id="t">How the firm runs</title>
+  <desc id="d">Agents propose strategies and hardware designs. A frozen judge spends unseen data and device builds on them. What survives goes live, and every live position carries a receipt back to the test that authorised it.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#202124"/>
+    </marker>
+    <marker id="arrb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1a73e8"/>
+    </marker>
+  </defs>
+  <g font-family="Roboto, -apple-system, Helvetica, Arial, sans-serif" fill="#202124">
+
+    <!-- 1. agents -->
+    <rect x="10" y="40" width="200" height="120" rx="6" fill="#fff" stroke="#dadce0"/>
+    <text x="30" y="68" font-size="11" fill="#80868b" letter-spacing="1.2">AGENTS</text>
+    <text x="30" y="94" font-size="17" font-weight="500">Propose</text>
+    <text x="30" y="118" font-size="13" fill="#5f6368">strategies</text>
+    <text x="30" y="138" font-size="13" fill="#5f6368">hardware designs</text>
+
+    <path d="M210 100 L270 100" stroke="#202124" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="240" y="90" font-size="11" fill="#80868b" text-anchor="middle">cheap</text>
+
+    <!-- 2. judge -->
+    <rect x="275" y="26" width="210" height="148" rx="6" fill="#f8f9fa" stroke="#202124" stroke-width="1.5"/>
+    <text x="295" y="54" font-size="11" fill="#80868b" letter-spacing="1.2">JUDGE · FROZEN</text>
+    <text x="295" y="80" font-size="17" font-weight="500">Spend to test</text>
+    <text x="295" y="104" font-size="13" fill="#5f6368">unseen market data</text>
+    <text x="295" y="124" font-size="13" fill="#5f6368">a build on the device</text>
+    <text x="295" y="152" font-size="12" fill="#202124">every read logged against a budget</text>
+
+    <path d="M485 100 L545 100" stroke="#202124" stroke-width="1.5" marker-end="url(#arr)"/>
+    <text x="515" y="90" font-size="11" fill="#80868b" text-anchor="middle">scarce</text>
+
+    <!-- 3. live -->
+    <rect x="550" y="40" width="200" height="120" rx="6" fill="#fff" stroke="#dadce0"/>
+    <text x="570" y="68" font-size="11" fill="#80868b" letter-spacing="1.2">LIVE</text>
+    <text x="570" y="94" font-size="17" font-weight="500">Act on it fast</text>
+    <text x="570" y="118" font-size="13" fill="#5f6368">own book</text>
+    <text x="570" y="138" font-size="13" fill="#5f6368">infrastructure as a service</text>
+
+    <!-- receipt back -->
+    <path d="M650 160 L650 215 L380 215 L380 178" fill="none" stroke="#1a73e8" stroke-width="1.5" marker-end="url(#arrb)"/>
+    <text x="515" y="236" font-size="12" fill="#1a73e8" text-anchor="middle">every live position carries a receipt back to the test that authorised it</text>
+
+    <!-- what agents may not touch -->
+    <path d="M110 160 L110 190 L250 190" fill="none" stroke="#dadce0" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <text x="40" y="212" font-size="12" fill="#80868b">agents may rewrite themselves; never the judge</text>
+  </g>
+</svg>
