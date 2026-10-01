@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="intro-text" markdown="1">
 
-I am building a trading firm in which agents write the strategies and the silicon that runs them, and the only job left to humans is to be the judge.
+Strategies are about to become free, and so is the silicon that runs them. What a trading firm will still own is its judge, the protocol that decides what is real, and the right to act on it fast. I am building that firm.
 {: .lede}
 
 Email: [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
@@ -24,12 +24,12 @@ Email: [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
 
 ## Now
 
-**Quanta Edge** — co-founder. A trading-infrastructure firm: strategy production and the low-latency stack beneath it, built on high-frequency hardware and on agents that accelerate research on both strategies and chip design. We trade our own book on that infrastructure and provide it as a service.
+**Quanta Edge** (co-founder). A trading-infrastructure firm: strategy production and the low-latency stack beneath it, built on high-frequency hardware and on agents that accelerate research on both strategies and chip design. We trade our own book on that infrastructure and provide it as a service.
 
 The testbed is a live high-frequency trading operation with the research engine wired into it:
 
-- **Strategy production.** Agents generate and test candidate strategies on market data, under a frozen evaluation protocol they cannot modify. Unseen data is rationed like a budget — every read is logged, and an opened window never returns to the search. What survives goes live, and its realised PnL is tied back to the backtest that authorised it.
-- **Low-latency hardware.** Execution runs on FPGAs. The design behind it — from the source down to how it is laid out on the device — is searched the same way, and judged by what the real device does: whether it closes timing, and the latency it actually delivers.
+- **Strategy production.** Agents generate and test candidate strategies on market data, under a frozen evaluation protocol they cannot modify. Unseen data is rationed like a budget: every read is logged, and an opened window never returns to the search. What survives goes live, and its realised PnL is tied back to the backtest that authorised it.
+- **Low-latency hardware.** Execution runs on FPGAs. The design behind it, from the source down to how it is laid out on the device, is searched the same way, and judged by what the real device does: whether it closes timing, and the latency it actually delivers.
 
 I am also a PhD candidate at HKUST.
 
@@ -43,10 +43,10 @@ I am also a PhD candidate at HKUST.
 
 ## Join us
 
-We are hiring an **HFT trader**, an **AI researcher** and a **Chief Scientist**. If one of the problems above reads like yours — especially if you disagree with it — write to me.
+We are hiring an **HFT trader**, an **AI researcher** and a **Chief Scientist**. If one of the problems above reads like yours, especially if you disagree with it, write to me.
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
 
 ## Background
 
-Tsinghua (Engineering Physics) · Peking University (Economics) · Columbia (M.S. Computer Science). Previously AI research at Megvii and reinforcement-learning trading at Graphen. [CV](/cv/)
+Columbia (M.S. Computer Science) · Peking University (Economics) · Tsinghua (Engineering Physics). Previously AI research at Megvii and reinforcement-learning trading at Graphen. [CV](/cv/)

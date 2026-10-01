@@ -13,8 +13,8 @@ Education
 ======
 * **Hong Kong University of Science and Technology** — Ph.D. candidate, 2022–present. Hong Kong.
 * **Columbia University** — M.S. in Computer Science, 2019–2021. New York, USA.
-* **Tsinghua University** — B.Eng. in Engineering Physics, 2015–2019. Beijing, China.
 * **Peking University** — B.S. in Economics, 2016–2019. Beijing, China.
+* **Tsinghua University** — B.Eng. in Engineering Physics, 2015–2019. Beijing, China.
 
 Experience
 ======
