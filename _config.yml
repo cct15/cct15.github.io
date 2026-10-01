@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en_HK"
-title                    : "Curtis Chen (Chutian)"
+title                    : "Curtis Chen"
 title_separator          : "-"
 name                     : &name "Curtis Chen (Chutian)"
 description              : &description "Founder of Neolab, co-founder of Quanta Edge. Agents that search for trading strategies and the FPGA hardware that executes them."
