@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="intro-text" markdown="1">
 
-I build agents that search for trading strategies and for the FPGA hardware that executes them — two search problems with the same shape: generation is cheap, and the judge is the scarce resource.
+I am building a trading firm in which agents write the strategies and the silicon that runs them, and the only job left to humans is to be the judge.
 {: .lede}
 
 Email: [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
