@@ -158,8 +158,10 @@ body {
 .figure img { display: block; width: 100%; height: auto; }
 .figure figcaption { font-size: .8125em; color: #80868b; text-align: center; margin-top: .7em; }
 .home .page__content p.bets-intro { margin-bottom: .5em; }
+.home .page__content ul.proof,
 .home .page__content ul.bets,
 .home .page__content ul.qs { list-style: none; margin: 0; padding: 0; }
+.home .page__content ul.proof li,
 .home .page__content ul.bets li,
 .home .page__content ul.qs li { padding-left: 1em; border-left: 2px solid #1a73e8; margin: 0 0 .9em; }
 .home .page__content ul.bets li { font-size: .9375em; }

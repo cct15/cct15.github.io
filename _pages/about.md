@@ -34,33 +34,11 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 **Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
 {: .record-intro}
 
-<div class="tiles" markdown="1">
+- **Agent alpha, live.** Agent-mined signals on 50 crypto markets, run live through a partner fund, net of costs, May to September 2026.
+- **Prediction markets, on-chain.** About 3,000 trades on Polymarket's five-minute BTC markets in two months, every one public.
+- **Market making, tokenized equities.** Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026.
+{: .proof}
 
-<div class="tile" markdown="1">
-<a class="tile-img" href="/images/ft_alpha_live_202609.png"><img src="/images/ft_alpha_live_202609.png" alt="Cumulative net return of two live books, May to September 2026: higher risk budget +10.3% with max drawdown 1.51%, lower risk budget +6.1% with max drawdown 0.97%." loading="lazy"></a>
-Agent alpha, live
-{: .tile-h}
-Agent-mined signals on 50 crypto markets, run live through a partner fund. Net of costs, May to September 2026.
-{: .tile-p}
-</div>
-
-<div class="tile" markdown="1">
-<a class="tile-img" href="/images/ft_polymarket_202607.png"><img src="/images/ft_polymarket_pnl_202607.png" alt="Polymarket profile FT-test: profit and loss for the past month +$5,829.81, July 2026." loading="lazy"></a>
-Prediction markets, on-chain
-{: .tile-h}
-About 3,000 trades on Polymarket's five-minute BTC markets in two months, every one public. Snapshot, July 2026.
-{: .tile-p}
-</div>
-
-<div class="tile" markdown="1">
-<a class="tile-img" href="/images/ft_mm.svg"><img src="/images/ft_mm.svg" alt="Stylised order book: our bids and asks on both sides of the mid price for a tokenized equity, hedged on the underlying market." loading="lazy"></a>
-Market making, tokenized equities
-{: .tile-h}
-Contracted market maker for tokenized Asian equities on an on-chain perp exchange, live since August 2026.
-{: .tile-p}
-</div>
-
-</div>
 </section>
 
 <section class="building" markdown="1">
