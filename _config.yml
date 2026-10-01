@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en_HK"
-title                    : "Chutian Chen"
+title                    : "Curtis Chen (Chutian)"
 title_separator          : "-"
-name                     : &name "Chutian Chen"
-description              : &description "Founder of Futuristic Group. Research on self-evolving research systems, with quantitative finance as the testbed."
+name                     : &name "Curtis Chen (Chutian)"
+description              : &description "Founder of Neolab, co-founder of Quanta Edge. Agents that search for trading strategies and the FPGA hardware that executes them."
 url                      : https://cct15.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/cct15/cct15.github.io/"
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chutian Chen (Curtis)"
+  name             : "Curtis Chen (Chutian)"
   avatar           : "profile.jpeg"
-  bio              : "Founder, Futuristic Group · Co-founder, Quanta Edge · PhD candidate at HKUST"
+  bio              : "Founder, Neolab · Co-founder, Quanta Edge · PhD candidate at HKUST"
   location         : "Hong Kong"
-  employer         : "Futuristic Group"
+  employer         : "Neolab"
   pubmed           : #""
   googlescholar    : #""
   email            : "cchencs@connect.ust.hk"

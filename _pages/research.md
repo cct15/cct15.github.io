@@ -6,7 +6,7 @@ redirect_from:
   - /research.html
 ---
 
-My work sits where automated search meets evaluation. A searcher that can propose ten thousand hypotheses a day turns the problem inside out: generation stops being the bottleneck, and almost everything that looks significant is an artifact of the search that found it. The questions below are the ones I am actually working on.
+My work sits where automated search meets evaluation. A searcher that can propose ten thousand hypotheses a day turns the problem inside out: generation stops being the bottleneck, and almost everything that looks significant is an artifact of the search that found it. I study this on two testbeds — trading strategies, and the FPGA hardware that executes them. The questions below are the ones I am actually working on.
 
 ## Evaluation under search pressure
 
@@ -24,6 +24,10 @@ A self-improving research system needs an explicit boundary. The search may rewr
 
 Hypothesis generation, literature grounding and implementation — under a hard publication-date cutoff, so a model cannot cite results that postdate the problem it was asked to solve. Not evaluation. The asymmetry is the point: a model that both proposes and judges converges on being convincing rather than on being right.
 
+## Agents for FPGA design
+
+Low-latency trading hardware is a search problem with an expensive judge. Agents can already propose and rewrite designs quickly — at the source level and in how a design is structured and placed on the device — but the numbers that matter are whether the design closes timing and the latency it delivers on the real device, and only a full build can say so. Each build costs hours. I treat that build the way I treat unseen market data: a budget, spent on the candidates that have earned it. The open question is how much of the judge can be learned — surrogates for timing, latency and routability — without the agent learning to fool it.
+
 ## Transfer across markets
 
 Models pooled across asset classes and venues, and the question of how much predictive power survives a market the model has never seen. My working position is that measurement methods transfer and numbers do not — noise scale, decay half-life and health bands have to be re-estimated per market before any cross-market claim is admissible.
@@ -34,6 +38,6 @@ What is genuinely predictable at sub-second horizons, what is predictable only a
 
 ## Working on this
 
-I am looking for a researcher on the evaluation side — someone who would rather build the judge than the next signal. If these read like your problems, especially if your first reaction was to disagree with one, write to me.
+We are hiring an HFT trader, an AI researcher and a Chief Scientist — people who would rather build the judge than the next candidate. If these read like your problems, especially if your first reaction was to disagree with one, write to me.
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
