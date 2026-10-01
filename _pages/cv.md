@@ -24,12 +24,17 @@ Experience
   * Testbed: a live high-frequency trading operation with FPGA-based execution; the hardware design is searched by agents and judged on the real device — timing closure and delivered latency.
 
 * **Futuristic Group Ltd** — Founder, 2025–2026. Hong Kong.
-  * Founded a research lab that traded its own book, running systematic strategies and on-chain market making, with tokenized real-world assets as its main line.
+  * Founded a proprietary trading firm running systematic strategies and on-chain market making, with tokenized real-world assets as its main line.
   * Built the research and trading stack end to end: data infrastructure across venues, a validation framework with walk-forward testing and a pre-deployment audit, and live monitoring that ties realised PnL back to the backtest that authorised the position.
+  * Market making in tokenized equities: two symbols live from August 2026 at 94% KPI satisfaction.
   * Led strategy research, and set the standard a signal had to clear before it was allowed to trade capital.
 
+* **Alibaba**, Taobao Live — Data & Strategy Product Manager, 2021–2022. Beijing, China.
+  * Led the strategy products for Taobao Live user growth; ran A/B experiments on the recommendation system, adding four million new users a day within four months.
+  * Optimised recommendations for users with sparse purchase histories.
+
 * **Graphen, Inc.**, Market Intelligence — Research Assistant, 2020. New York, USA.
-  * Reinforcement-learning models for high-frequency FX trading, working on model stability and return.
+  * Reinforcement-learning models for high-frequency FX trading; took the model from flat to a 10% monthly return.
   * Introduced Reinforcement Sensitivity Theory from psychology into the trading model, matching client risk profiles to strategies.
 
 * **Megvii**, Algorithm Department — Algorithm Intern, 2018–2019. Beijing, China.
@@ -39,8 +44,3 @@ Experience
 Research
 ======
 Current work is described on the [research](/research/) page: evaluation design for automated search, the boundary between what a self-improving research system may change and what it must not, agents for FPGA design, and market microstructure.
-
-Honors
-======
-* Hong Kong PhD Fellowship, 2022.
-* Academic Excellence Award, Tsinghua University, 2016–2018.
