@@ -96,7 +96,7 @@ body {
 /* ======================================================================
    Home page
    One column, 780px. One type scale: body 16px, small 15px, label 12px,
-   lede 24px in a serif. Section rhythm 3.5em.
+   lede 20px in a serif. Section rhythm 3.5em.
    ====================================================================== */
 
 .home section { margin: 0 0 3.5em; }
@@ -117,40 +117,31 @@ body {
   border-bottom: 1px solid #ededed;
 }
 
-/* hero */
-.hero { display: flex; align-items: flex-start; gap: 2.4em; }
-.hero-text { flex: 1; min-width: 0; }
+/* hero: a compact identity row, then the lede at reading size */
+.identity { display: flex; align-items: center; gap: 1.2em; margin-bottom: 1.6em; }
+.identity-text { flex: 1; min-width: 0; }
 .headshot {
-  flex: 0 0 180px;
-  width: 180px;
-  height: 180px;
+  flex: 0 0 72px;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
-  border-radius: 6px;
-  margin: .25em 0 0;
+  border-radius: 50%;
+  margin: 0;
 }
-.home .page__content p.kicker { font-size: .8125em; color: #5f6368; margin: 0 0 .8em; }
+.home .page__content p.name { font-size: 1.0625em; font-weight: 500; margin: 0 0 .15em; line-height: 1.3; }
+.home .page__content p.kicker { font-size: .875em; color: #5f6368; margin: 0; line-height: 1.5; }
+.home .page__content p.kicker a { color: #5f6368; }
+.home .page__content p.kicker a:hover { color: #1a73e8; }
 .home .page__content p.lede {
   font-family: "Newsreader", Georgia, "Times New Roman", serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.5;
   color: #202124;
-  margin: 0 0 1em;
+  margin: 0 0 1.2em;
 }
-.home .page__content p.hero-actions { margin: 0; display: flex; align-items: center; gap: 1.2em; flex-wrap: wrap; }
+.home .page__content p.hero-actions { margin: 0; }
 .home .page__content p.hero-actions .btn { margin: 0; }
-.home .page__content a.hero-mail { font-size: .875em; color: #5f6368; }
-.home .page__content a.hero-mail:hover { color: #1a73e8; }
-
-/* proof tiles */
-.home .page__content p.record-intro { margin-bottom: 1.2em; }
-.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2em; }
-.tile { border: 1px solid #e3e3e3; border-radius: 6px; overflow: hidden; }
-.tile .tile-img { display: block; aspect-ratio: 2 / 1; background: #fff; border-bottom: 1px solid #ededed; }
-.tile .tile-img img { display: block; width: 100%; height: 100%; object-fit: contain; padding: .5em; box-sizing: border-box; }
-.home .page__content .tile p { margin: 0 1em; font-size: .9375em; line-height: 1.55; }
-.home .page__content .tile p.tile-h { font-weight: 500; margin-top: .8em; margin-bottom: .25em; }
-.home .page__content .tile p.tile-p { color: #5f6368; margin-bottom: 1em; }
 
 /* proof stats */
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6em; }
@@ -198,7 +189,6 @@ body {
 
 @media (max-width: 48em) {
   .tiles, .stats { grid-template-columns: 1fr; }
-  .home .page__content p.lede { font-size: 1.35em; }
 }
 
 @media (max-width: 37.5em) {
@@ -206,7 +196,6 @@ body {
   #main { padding: 0 1.2em; }
   .home section:first-child { margin-top: 1.6em; }
   .home section { margin-bottom: 3em; }
-  .hero { flex-direction: column; align-items: flex-start; gap: 1.2em; }
-  .headshot { flex: none; width: 112px; height: 112px; }
-  .home .page__content p.lede { font-size: 1.25em; }
+  .headshot { flex-basis: 56px; width: 56px; height: 56px; }
+  .home .page__content p.lede { font-size: 1.125em; }
 }

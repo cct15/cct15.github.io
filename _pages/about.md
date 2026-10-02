@@ -10,20 +10,25 @@ redirect_from:
 
 <section class="hero" markdown="1">
 
+<div class="identity" markdown="1">
+
 ![Curtis Chen](/images/profile_sq.jpg){: .headshot}
 
-<div class="hero-text" markdown="1">
-
-Curtis Chen (Chutian) · Co-founder, Quanta Edge · Hong Kong
+<div class="identity-text" markdown="1">
+Curtis Chen (Chutian)
+{: .name}
+Co-founder, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
 {: .kicker}
+</div>
+
+</div>
 
 LLMs have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check? We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives. At Quanta Edge we are building the next generation of high-frequency trading infrastructure on that loop.
 {: .lede}
 
-[Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary} [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk){: .hero-mail}
+[Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
 {: .hero-actions}
 
-</div>
 </section>
 
 <section class="building" markdown="1">
