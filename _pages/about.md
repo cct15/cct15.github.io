@@ -31,11 +31,11 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 ## What I am building
 {: .label}
 
-**Quanta Edge** is a trading firm where a handful of people write the exam and agents write everything else: the strategies, and the hardware that runs them. The judge is frozen and out of the agents' reach. Unseen data and device builds are spent like a budget, and every live position carries a receipt back to the test that authorised it.
+**Quanta Edge** is a trading firm where a handful of people write the exam and agents write everything else: the strategies, and the hardware that runs them. The judge is frozen and out of the agents' reach. Unseen data and device builds are spent like a budget. Nothing goes live until it has paid for its evidence, and live trading is never a test: live results are reconciled against that evidence, never fed back into it.
 {: .building-text}
 
 <figure class="figure">
-<img src="/images/engine.svg" alt="How the firm runs: agents propose, a frozen judge spends unseen data and device builds to test, what survives goes live, and every live position carries a receipt back to the test that authorised it." />
+<img src="/images/engine.svg" alt="How the firm runs: agents propose, a frozen judge spends unseen data and device builds to test, what survives goes live, and live results are reconciled against the test, never fed back into it." />
 <figcaption>Proposing is cheap. Testing is what gets spent.</figcaption>
 </figure>
 
