@@ -29,7 +29,7 @@ LLMs have made search cheap wherever an answer can be checked, and that turns re
 We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives.
 {: .lede}
 
-At Quanta Edge we are building the next generation of high-frequency trading infrastructure on that loop.
+We are building the next generation of high-frequency trading infrastructure on that loop.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
