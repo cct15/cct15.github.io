@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Curtis Chen (Chutian)"
-excerpt: "Co-founder of Quanta Edge. Strategies are about to become free, and so is the silicon that runs them. I am building the firm that owns the judge."
+excerpt: "Co-founder of Quanta Edge. Language models made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
 author_profile: false
 redirect_from: 
   - /about/
@@ -17,7 +17,7 @@ redirect_from:
 Curtis Chen (Chutian) · Co-founder, Quanta Edge · Hong Kong
 {: .kicker}
 
-Strategies are about to become free, and so is the silicon that runs them. What a trading firm will still own is its judge, the protocol that decides what is real, and the right to act on it fast. I am building that firm.
+Language models have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check? We apply it to trading, where answers are priced daily. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives. Quanta Edge is the next generation of high-frequency trading infrastructure, built on that loop.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary} [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk){: .hero-mail}
@@ -31,7 +31,7 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 ## What I am building
 {: .label}
 
-**Quanta Edge** is a trading firm where a handful of people write the exam and agents write everything else: the strategies, and the hardware that runs them. The judge is frozen and out of the agents' reach, and it has to be fast: a candidate is tested thousands of times on recorded data, in simulation and in quick builds before it touches capital. Live trading is the slowest and least repeatable test there is, so we do not test there. Live results are reconciled against the evidence, never fed back into it.
+**Quanta Edge** builds high-frequency trading infrastructure where both layers are searched by agents: strategy production, and the low-latency stack beneath it. A handful of people write the exam; agents write the strategies and the hardware. The judge is frozen, out of the agents' reach, and fast: a candidate is tested thousands of times on recorded data, in simulation and in quick builds before it touches capital. Live trading is the slowest, least repeatable test there is, so we do not test there; live results are reconciled against the evidence, never fed back into it. We trade our own book on this infrastructure and provide it as a service.
 {: .building-text}
 
 <figure class="figure">
