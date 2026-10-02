@@ -23,7 +23,13 @@ Co-founder, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@
 
 </div>
 
-LLMs have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check? We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives. At Quanta Edge we are building the next generation of high-frequency trading infrastructure on that loop.
+LLMs have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check?
+{: .lede}
+
+We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives.
+{: .lede}
+
+At Quanta Edge we are building the next generation of high-frequency trading infrastructure on that loop.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
