@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Curtis Chen (Chutian)"
-excerpt: "Co-founder of Quanta Edge. Language models made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
+excerpt: "Co-founder of Quanta Edge. LLMs made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
 author_profile: false
 redirect_from: 
   - /about/
@@ -17,7 +17,7 @@ redirect_from:
 Curtis Chen (Chutian) · Co-founder, Quanta Edge · Hong Kong
 {: .kicker}
 
-Language models have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check? We apply it to trading, where answers are priced daily. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives. Quanta Edge is the next generation of high-frequency trading infrastructure, built on that loop.
+LLMs have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check? We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives. At Quanta Edge we are building the next generation of high-frequency trading infrastructure on that loop.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary} [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk){: .hero-mail}
@@ -82,7 +82,7 @@ A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 publi
 {: .stat-n}
 Designated market maker
 {: .stat-l}
-Market maker for tokenized Asian equities on three on-chain perp exchanges. First-month KPIs met; reactive cancellation adds about 0.9 bp per fill.
+Market maker for tokenized equities on three on-chain perp exchanges. First-month KPIs met; reactive cancellation adds about 0.9 bp per fill.
 {: .stat-p}
 </div>
 
