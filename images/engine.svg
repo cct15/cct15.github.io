@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-labelledby="t d">
   <title id="t">How the firm runs</title>
-  <desc id="d">Agents propose strategies and hardware designs. A frozen judge spends unseen data and device builds on them. What survives goes live. Live results are reconciled against the test, never fed back into it; only latency is measured live.</desc>
+  <desc id="d">Agents propose strategies and hardware designs. A frozen judge spends unseen data and device builds on them. What survives goes live. Live is the slowest test: results are reconciled against the evidence, never fed back into it.</desc>
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0 0 L10 5 L0 10 z" fill="#202124"/>
@@ -24,14 +24,14 @@
     <!-- 2. judge -->
     <rect x="275" y="26" width="210" height="152" rx="6" fill="#f8f9fa" stroke="#202124" stroke-width="1.5"/>
     <text x="295" y="54" font-size="11" fill="#80868b" letter-spacing="1.2">JUDGE · FROZEN</text>
-    <text x="295" y="80" font-size="17" font-weight="500">Spend to test</text>
-    <text x="295" y="104" font-size="13" fill="#5f6368">unseen market data</text>
-    <text x="295" y="124" font-size="13" fill="#5f6368">a build on the device</text>
-    <text x="295" y="148" font-size="12" fill="#202124">every read logged</text>
-    <text x="295" y="164" font-size="12" fill="#202124">against a budget</text>
+    <text x="295" y="80" font-size="17" font-weight="500">Test fast, repeat</text>
+    <text x="295" y="104" font-size="13" fill="#5f6368">recorded data · simulation</text>
+    <text x="295" y="124" font-size="13" fill="#5f6368">quick builds on the device</text>
+    <text x="295" y="148" font-size="12" fill="#202124">thousands of runs before</text>
+    <text x="295" y="164" font-size="12" fill="#202124">a candidate touches capital</text>
 
     <path d="M485 100 L545 100" stroke="#202124" stroke-width="1.5" marker-end="url(#arr)"/>
-    <text x="515" y="90" font-size="11" fill="#80868b" text-anchor="middle">scarce</text>
+    <text x="515" y="90" font-size="11" fill="#80868b" text-anchor="middle">survivors</text>
 
     <!-- 3. live -->
     <rect x="550" y="40" width="200" height="120" rx="6" fill="#fff" stroke="#dadce0"/>
@@ -42,7 +42,7 @@
 
     <!-- receipt back -->
     <path d="M650 160 L650 215 L380 215 L380 178" fill="none" stroke="#1a73e8" stroke-width="1.5" marker-end="url(#arrb)"/>
-    <text x="515" y="236" font-size="12" fill="#1a73e8" text-anchor="middle">live results reconcile against the test, never feed back into it; only latency is measured live</text>
+    <text x="515" y="236" font-size="12" fill="#1a73e8" text-anchor="middle">live is the slowest test: results reconcile against the evidence, never feed back into it</text>
 
     <!-- what agents may not touch -->
     <path d="M110 160 L110 190 L250 190" fill="none" stroke="#dadce0" stroke-width="1.2" stroke-dasharray="4 3"/>

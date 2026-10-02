@@ -31,12 +31,12 @@ Strategies are about to become free, and so is the silicon that runs them. What 
 ## What I am building
 {: .label}
 
-**Quanta Edge** is a trading firm where a handful of people write the exam and agents write everything else: the strategies, and the hardware that runs them. The judge is frozen and out of the agents' reach. Unseen data and device builds are spent like a budget. Live trading is not a test: a strategy pays for its evidence before it trades, and live results are reconciled against that evidence, never fed back into it. The one number we can only measure live is latency.
+**Quanta Edge** is a trading firm where a handful of people write the exam and agents write everything else: the strategies, and the hardware that runs them. The judge is frozen and out of the agents' reach, and it has to be fast: a candidate is tested thousands of times on recorded data, in simulation and in quick builds before it touches capital. Live trading is the slowest and least repeatable test there is, so we do not test there. Live results are reconciled against the evidence, never fed back into it.
 {: .building-text}
 
 <figure class="figure">
-<img src="/images/engine.svg" alt="How the firm runs: agents propose, a frozen judge spends unseen data and device builds to test, what survives goes live, and live results are reconciled against the test, never fed back into it; only latency is measured live." />
-<figcaption>Proposing is cheap. Testing is what gets spent.</figcaption>
+<img src="/images/engine.svg" alt="How the firm runs: agents propose; a frozen judge tests fast and repeatedly on recorded data, simulation and quick builds; what survives goes live; live results are reconciled against the test, never fed back into it." />
+<figcaption>Proposing is cheap. Fast, repeatable testing is the asset. Live is the slowest test there is.</figcaption>
 </figure>
 
 Three bets behind it:
@@ -44,7 +44,7 @@ Three bets behind it:
 
 - **Strategies become inventory.** The asset is the process that regenerates them, and the record of what each was tested against.
 - **Hardware follows.** One strategy, one piece of silicon, searched by agents and judged on the device.
-- **What cannot be generated decides the winner.** Unseen data, a build that closes timing, a venue to act on. They are spent, not made.
+- **Verification speed decides the winner.** The firm that can test a candidate in seconds, on data, in simulation or in a quick build, and do it again, beats the one that waits to find out live.
 {: .bets}
 
 </section>
@@ -97,7 +97,7 @@ Market maker for tokenized Asian equities on three on-chain perp exchanges. Firs
 
 - **Can a check carry information** when a candidate's evidence is the same size as the noise the search itself produces?
 - **Where is the line** between what the system may rewrite and what it must not, and how do you know, from inside, that it was crossed?
-- **How much of the judge can be learned?** A build takes hours and an unseen window is spent once; surrogates are cheap, and the agent will learn to fool them.
+- **How fast can a judge be without lying?** Replays, simulators and partial builds are cheap and repeatable, and the agent will learn to fool them. What must be measured, and what may be simulated?
 {: .qs}
 
 [Longer statements on the research page.](/research/)
