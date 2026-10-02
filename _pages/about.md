@@ -56,7 +56,7 @@ Three bets behind it:
 
 <section class="record" markdown="1">
 
-## Proof
+## What I have built
 {: .label}
 
 **Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
