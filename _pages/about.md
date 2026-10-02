@@ -87,7 +87,7 @@ A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 publi
 {: .stat-n}
 Designated market maker
 {: .stat-l}
-Market maker for tokenized equities on three on-chain perp exchanges. First-month KPIs met; reactive cancellation adds about 0.9 bp per fill.
+Market maker for RWA (real-world assets) on three on-chain perp exchanges, providing primary liquidity for tokenized equities and crypto.
 {: .stat-p}
 </div>
 
