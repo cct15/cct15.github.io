@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Curtis Chen (Chutian)"
-excerpt: "Co-founder of Quanta Edge. LLMs made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
+excerpt: "CEO of Quanta Edge. LLMs made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
 author_profile: false
 redirect_from: 
   - /about/
@@ -17,7 +17,7 @@ redirect_from:
 <div class="identity-text" markdown="1">
 Curtis Chen (Chutian)
 {: .name}
-Co-founder, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
+CEO, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
 {: .kicker}
 </div>
 
@@ -138,7 +138,7 @@ If one of the questions above is already yours, especially if you think we have 
 
 <section class="background" markdown="1">
 
-Earlier: AI research at Megvii, and reinforcement-learning trading at Graphen, New York. Columbia (M.S. Computer Science) · Peking University (Economics) · Tsinghua (Engineering Physics). [Full CV](/cv/)
+Earlier: deep-learning research at Megvii and Graphen, and recommendation algorithms at Alibaba. Columbia (M.S. Computer Science) · Peking University (Economics) · Tsinghua (Engineering Physics). [Full CV](/cv/)
 {: .bg}
 
 </section>
