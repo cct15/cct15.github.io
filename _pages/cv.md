@@ -31,7 +31,7 @@ Experience
   * Reinforcement learning for high-frequency FX trading.
 
 * **Megvii** — Deep Learning Researcher, 09/2018–06/2019.
-  * Robustness of deep neural networks.
+  * Out-of-distribution robustness for computer-vision models.
 
 Research
 ======

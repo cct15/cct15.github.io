@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Curtis Chen (Chutian)"
-excerpt: "CEO of Quanta Edge. LLMs made search cheap wherever an answer can be checked. We apply that to trading, strategies and silicon alike, and build the fast judge that decides what survives."
+excerpt: "CEO of Quanta Edge, an AI-native trading firm in Hong Kong. Massively parallel AI agents research, build and trade strategies, from market data to silicon."
 author_profile: false
 redirect_from: 
   - /about/
@@ -23,13 +23,13 @@ CEO, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect
 
 </div>
 
-LLMs have made search cheap wherever an answer can be checked, and that turns research and engineering into one question: how fast can you check?
+AI is becoming a better trader than most specialists. So the job of people changes: not doing the work, but making the best AI trade effectively.
 {: .lede}
 
-We apply it to trading, where answers are priced every second. Agents search for strategies and for the chips that run them; a fast, frozen judge decides what survives.
+At Quanta Edge, massively parallel AI agents research, build and trade strategies, from market data to the chips that run them. A handful of people set the goals, the tests the agents must pass, risk and capital.
 {: .lede}
 
-We are building the next generation of high-frequency trading infrastructure on that loop.
+This resets the race. It is no longer about who has the most talent, but who turns the world's best AI into trading profit fastest.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
@@ -42,20 +42,20 @@ We are building the next generation of high-frequency trading infrastructure on 
 ## What I am building
 {: .label}
 
-**Quanta Edge** builds high-frequency trading infrastructure where both layers are searched by agents: strategy production, and the low-latency stack beneath it. A handful of people write the exam; agents write the strategies and the hardware. The judge is frozen, out of the agents' reach, and fast: a candidate is tested thousands of times on recorded data, in simulation and in quick builds before it touches capital. Live trading is the slowest, least repeatable test there is, so we do not test there; live results are reconciled against the evidence, never fed back into it. We trade our own book on this infrastructure and provide it as a service.
+**Quanta Edge** is an AI-native proprietary trading firm. Massively parallel AI agents search for strategies, train the models and design the FPGA hardware that executes them; a strategy that used to take a team months takes days. Every candidate must pass the same out-of-sample tests and risk limits before it touches capital, and a person approves every release. We trade our own capital, and we grow by adding markets and computing power, not headcount.
 {: .building-text}
 
 <figure class="figure">
 <img src="/images/engine.svg" alt="How the firm runs: agents propose; a frozen judge tests fast and repeatedly on recorded data, simulation and quick builds; what survives goes live; live results are reconciled against the test, never fed back into it." />
-<figcaption>Proposing is cheap. Fast, repeatable testing is the asset. Live is the slowest test there is.</figcaption>
+<figcaption>Agents propose in parallel. Fast, repeatable tests decide what goes live.</figcaption>
 </figure>
 
 Three bets behind it:
 {: .bets-intro}
 
-- **Strategies become inventory.** The asset is the process that regenerates them, and the record of what each was tested against.
-- **Hardware follows.** One strategy, one piece of silicon, searched by agents and judged on the device.
-- **Verification speed decides the winner.** The firm that can test a candidate in seconds, on data, in simulation or in a quick build, and do it again, beats the one that waits to find out live.
+- **People make AI trade.** The scarce skill is no longer finding the next signal. It is building the system, the tests and the risk limits that make the best models trade well.
+- **Speed is the advantage.** Nobody owns a moat in this reset. Every new frontier model makes our system faster, while large firms first have to reorganise teams built around specialists.
+- **Model and chip, designed together.** Strategies and the hardware that runs them are searched together and judged on one number: profit after costs.
 {: .bets}
 
 </section>
@@ -71,20 +71,20 @@ Three bets behind it:
 <div class="stats" markdown="1">
 
 <div class="stat" markdown="1">
-Sharpe 4.3
+Sharpe 11
 {: .stat-n}
-Agent alpha, live
+Prediction markets, on-chain
 {: .stat-l}
-Agent-mined signals on 50 crypto markets, run live through a partner fund. +10.3% net of costs in five months, max drawdown 1.5% (May to September 2026).
+A high-frequency book on Polymarket's five-minute BTC markets: +580% in a month, about 3,000 public trades and a top-30 leaderboard finish.
 {: .stat-p}
 </div>
 
 <div class="stat" markdown="1">
-+500% in a month
+Sharpe 3–4
 {: .stat-n}
-Prediction markets, on-chain
+Crypto alpha, live
 {: .stat-l}
-A high-frequency book on Polymarket's five-minute BTC markets: about 3,000 public trades in two months, and a top-30 leaderboard finish.
+Systematic signals on crypto markets, run live through a partner fund across two risk budgets: +6% to +10% net of costs in five months, max drawdown under 1.6% (May to September 2026).
 {: .stat-p}
 </div>
 
@@ -98,6 +98,16 @@ Market maker for RWA (real-world assets) on three on-chain perp exchanges, provi
 </div>
 
 </div>
+
+</section>
+
+<section class="paper" markdown="1">
+
+## Latest research
+{: .label}
+
+**EvoQuantLab** (arXiv; under review at ICLR 2027). Self-evolving AI agents for quant research: an inner loop searches for signals, an outer loop audits each round for overfitting and rewrites the research rules for the next. Run on the same model and data as four leading AI research agents, it delivered the best out-of-sample return in all three markets tested: China equities, US equities and crypto.
+{: .building-text}
 
 </section>
 
@@ -138,7 +148,7 @@ If one of the questions above is already yours, especially if you think we have 
 
 <section class="background" markdown="1">
 
-Earlier: deep-learning research at Megvii and Graphen, and recommendation algorithms at Alibaba. Columbia (M.S. Computer Science) · Peking University (Economics) · Tsinghua (Engineering Physics). [Full CV](/cv/)
+Earlier: reinforcement learning for high-frequency FX trading at Graphen, under Ching-Yung Lin (former Chief Scientist of IBM); out-of-distribution robustness for computer-vision models at Megvii; recommendation algorithms at Alibaba. HKUST (Ph.D. candidate) · Columbia (M.S. Computer Science) · Peking University (B.S. Economics) · Tsinghua (B.Eng. Engineering Physics). [Full CV](/cv/)
 {: .bg}
 
 </section>
