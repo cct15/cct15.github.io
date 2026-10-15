@@ -46,7 +46,15 @@ My focus is the system that makes this scale: massively parallel research, autom
 {: .building-text}
 
 <figure class="figure">
-<img src="/images/engine.svg" alt="The system we are building: parallel agent research and experiments in software and on real FPGA boards feed a selected live trading portfolio. Shared learning improves the next round." />
+<img class="engine-desktop" src="/images/engine.svg?v=20261016" alt="The system we are building: parallel agent research and experiments in software and on real FPGA boards feed a selected live trading portfolio. Shared learning improves the next round." />
+<div class="engine-mobile" aria-label="Target operating model">
+  <div><span>Agent research</span><strong>Parallel discovery</strong><p>Strategies, markets and reusable infrastructure</p></div>
+  <span class="engine-arrow" aria-hidden="true">↓</span>
+  <div><span>Experiments</span><strong>Test in parallel</strong><p>Software, simulation and real FPGA boards</p></div>
+  <span class="engine-arrow" aria-hidden="true">↓</span>
+  <div><span>Live trading</span><strong>Selected portfolio</strong><p>Validated strategies and market expansion</p></div>
+  <p class="engine-feedback">↻ Shared learning improves the next round</p>
+</div>
 <figcaption>The system we are building: more experiments, shared learning, repeatable market expansion.</figcaption>
 </figure>
 
