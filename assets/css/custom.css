@@ -199,3 +199,16 @@ body {
   .headshot { flex-basis: 56px; width: 56px; height: 56px; }
   .home .page__content p.lede { font-size: 1.125em; }
 }
+
+/* Vision and diagram: retain the existing typography and keep mobile text readable. */
+.home .page__content p.vision {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.8em;
+  line-height: 1.2;
+  margin: 0 0 .9em;
+}
+@media (max-width: 37.5em) {
+  .home .page__content p.vision { font-size: 1.5em; }
+  .figure { overflow-x: auto; }
+  .figure img { min-width: 600px; }
+}

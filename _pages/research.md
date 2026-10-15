@@ -2,42 +2,40 @@
 permalink: /research/
 title: "Research"
 author_profile: false
-redirect_from: 
+redirect_from:
   - /research.html
 ---
 
-My work sits where automated search meets evaluation. A searcher that can propose ten thousand hypotheses a day turns the problem inside out: generation stops being the bottleneck, and almost everything that looks significant is an artifact of the search that found it. I study this on two testbeds — trading strategies, and the FPGA hardware that executes them. The questions below are the ones I am actually working on.
+My research asks how a small team can build a system that conducts vastly more useful experiments than it could run by hand. At Quanta Edge, I work on AI agents for quantitative research and trading, connecting parallel discovery, real hardware experiments and shared learning.
 
-## Evaluation under search pressure
+## Massively parallel research
 
-How do you design a validator with enough statistical power that surviving it means something?
+The aim is to explore many strategies and markets simultaneously, with agents sharing data infrastructure, tools and reusable research methods. The important question is how to turn more experiments into more useful knowledge: coordinate independent searches, avoid duplicating work, and make an improvement available to the next agent.
 
-- **Held-out data as a budget.** Treating unseen windows as a depletable resource with a quota ledger, rather than a test set that quietly gets reused until it means nothing. A window that has been opened is scored once and never returned to the search.
-- **Zero-alpha calibration.** Running the full pipeline over panels known to contain no signal, to measure how much apparent performance the pipeline manufactures on its own. That number is the floor any real result has to clear.
-- **Scoring the scorer.** Keeping an answer book of candidates that once passed and later failed, and grading every new check by what it catches and what it lets through. A check that cannot catch a known historical failure does not get added.
+## Learning how to research
 
-## What may evolve, and what must not
+A research system should improve its methods as well as its candidates. I study how agents diagnose failed experiments, revise search procedures and transfer useful discoveries across tasks. Evaluation matters throughout: an improvement must survive independent testing before it becomes a method other agents rely on.
 
-A self-improving research system needs an explicit boundary. The search may rewrite its own operators, priors and representations. The judge, the data-access layer and the statistical conventions have to stay fixed, versioned and outside the system's reach — otherwise the system optimizes the examiner instead of the answer. I am interested in where that line belongs and how it fails when it is drawn in the wrong place.
+## Experiments beyond simulation
 
-## Where language models actually help
+Trading strategies and the hardware that executes them are one design problem: model complexity, latency and implementation costs all affect what is practical. We are developing automated workflows that connect agent-generated designs to deployment and measurement on real FPGA boards. A larger experiment fleet lets more candidates be tested in parallel and gives agents feedback from physical systems.
 
-Hypothesis generation, literature grounding and implementation — under a hard publication-date cutoff, so a model cannot cite results that postdate the problem it was asked to solve. Not evaluation. The asymmetry is the point: a model that both proposes and judges converges on being convincing rather than on being right.
+## Learning from live trading
 
-## Agents for FPGA design
+The research loop should connect to the world it is trying to model. Monitoring, reconciliation and diagnosis can show where expected behaviour diverges from live results, and guide the next research cycle. My focus is how to make this feedback useful without turning a successful backtest or a short live period into false confidence.
 
-Low-latency trading hardware is a search problem with an expensive judge. Agents can already propose and rewrite designs quickly — at the source level and in how a design is structured and placed on the device — but the numbers that matter are whether the design closes timing and the latency it delivers on the real device, and only a full build can say so. Each build costs hours. I treat that build the way I treat unseen market data: a budget, spent on the candidates that have earned it. The open question is how much of the judge can be learned — surrogates for timing, latency and routability — without the agent learning to fool it.
+## Selected publication
 
-## Transfer across markets
+**[EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research](https://arxiv.org/abs/2610.17130)**
 
-Models pooled across asset classes and venues, and the question of how much predictive power survives a market the model has never seen. My working position is that measurement methods transfer and numbers do not — noise scale, decay half-life and health bands have to be re-estimated per market before any cross-market claim is admissible.
+Haolin Yang, Zhiqiang Qian, **Chutian Chen**, Jipeng Zhang, Zhenghao Zhu, Tangjia Deng, Jian Xie, Shuaishuai Gong, Yike Guo and Sirui Han. arXiv, 2026.
 
-## Market microstructure
+EvoQuantLab combines an inner genetic-programming loop for factor search with an outer loop that diagnoses results and evolves research methods. It studies training-free improvement of quantitative research across equities and crypto.
 
-What is genuinely predictable at sub-second horizons, what is predictable only at the moment a decision is made, and where the boundary sits between an edge and a faster way to lose.
+[Read on arXiv](https://arxiv.org/abs/2610.17130)
 
-## Working on this
+## Work with me
 
-We are hiring an HFT trader, an AI researcher and a Chief Scientist — people who would rather build the judge than the next candidate. If these read like your problems, especially if your first reaction was to disagree with one, write to me.
+We are building the team in AI research and agent infrastructure, alongside exceptional traders. If you want to build systems that learn through large-scale research and real-world experiments, I would like to hear from you.
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}

@@ -1,9 +1,9 @@
 ---
 permalink: /
-title: "Curtis Chen (Chutian)"
-excerpt: "CEO of Quanta Edge, an AI-native trading firm in Hong Kong. Massively parallel AI agents research, build and trade strategies, from market data to silicon."
+title: "Chutian Chen (Curtis)"
+excerpt: "Building Quanta Edge, a next-generation global trading firm. Massively parallel AI research, real hardware experiments and shared learning."
 author_profile: false
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -12,10 +12,10 @@ redirect_from:
 
 <div class="identity" markdown="1">
 
-![Curtis Chen](/images/profile_sq.jpg){: .headshot}
+![Chutian Chen](/images/profile_sq.jpg){: .headshot}
 
 <div class="identity-text" markdown="1">
-Curtis Chen (Chutian)
+Chutian Chen (Curtis)
 {: .name}
 CEO, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
 {: .kicker}
@@ -23,13 +23,13 @@ CEO, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect
 
 </div>
 
-AI is becoming a better trader than most specialists. So the job of people changes: not doing the work, but making the best AI trade effectively.
+A small team. Thousands of agents. A global trading firm.
+{: .vision}
+
+This is the vision I am building toward at **Quanta Edge**: a few exceptional people build the system; agents research, experiment and trade across global markets.
 {: .lede}
 
-At Quanta Edge, massively parallel AI agents research, build and trade strategies, from market data to the chips that run them. A handful of people set the goals, the tests the agents must pass, risk and capital.
-{: .lede}
-
-This resets the race. It is no longer about who has the most talent, but who turns the world's best AI into trading profit fastest.
+My focus is the system that makes this scale: massively parallel research, automated experiments on real hardware, and learning that carries from one market to the next.
 {: .lede}
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
@@ -42,62 +42,18 @@ This resets the race. It is no longer about who has the most talent, but who tur
 ## What I am building
 {: .label}
 
-**Quanta Edge** is an AI-native proprietary trading firm. Massively parallel AI agents search for strategies, train the models and design the FPGA hardware that executes them; a strategy that used to take a team months takes days. Every candidate must pass the same out-of-sample tests and risk limits before it touches capital, and a person approves every release. We trade our own capital, and we grow by adding markets and computing power, not headcount.
+**Quanta Edge** is a next-generation proprietary trading firm. We are building one shared system for strategy discovery, software and hardware design, and live trading. Our conviction is that an entire firm built around agents can improve faster with every experiment, and expand across markets with a small team.
 {: .building-text}
 
 <figure class="figure">
-<img src="/images/engine.svg" alt="How the firm runs: agents propose; a frozen judge tests fast and repeatedly on recorded data, simulation and quick builds; what survives goes live; live results are reconciled against the test, never fed back into it." />
-<figcaption>Agents propose in parallel. Fast, repeatable tests decide what goes live.</figcaption>
+<img src="/images/engine.svg" alt="The system we are building: parallel agent research and experiments in software and on real FPGA boards feed a selected live trading portfolio. Shared learning improves the next round." />
+<figcaption>The system we are building: more experiments, shared learning, repeatable market expansion.</figcaption>
 </figure>
 
-Three bets behind it:
-{: .bets-intro}
-
-- **People make AI trade.** The scarce skill is no longer finding the next signal. It is building the system, the tests and the risk limits that make the best models trade well.
-- **Speed is the advantage.** Nobody owns a moat in this reset. Every new frontier model makes our system faster, while large firms first have to reorganise teams built around specialists.
-- **Model and chip, designed together.** Strategies and the hardware that runs them are searched together and judged on one number: profit after costs.
+- **Parallel discovery.** Agents explore different strategies and markets at the same time, reusing data tools, research methods and execution infrastructure.
+- **Real hardware experiments.** Automation extends beyond software and simulation. Agents jointly optimise strategies and FPGA designs through deployment and testing on real boards.
+- **Shared learning.** Research results, hardware measurements and live trading feedback improve the system. Better foundation models can then accelerate the same workflows across markets.
 {: .bets}
-
-</section>
-
-<section class="record" markdown="1">
-
-## What I have built
-{: .label}
-
-**Futuristic Group**, 2025–2026: the trading firm I founded and ran before this.
-{: .record-intro}
-
-<div class="stats" markdown="1">
-
-<div class="stat" markdown="1">
-Sharpe 11
-{: .stat-n}
-Prediction markets, on-chain
-{: .stat-l}
-A high-frequency book on Polymarket's five-minute BTC markets: +580% in a month, about 3,000 public trades and a top-30 leaderboard finish.
-{: .stat-p}
-</div>
-
-<div class="stat" markdown="1">
-Sharpe 3–4
-{: .stat-n}
-Crypto alpha, live
-{: .stat-l}
-Systematic signals on crypto markets, run live through a partner fund across two risk budgets: +6% to +10% net of costs in five months, max drawdown under 1.6% (May to September 2026).
-{: .stat-p}
-</div>
-
-<div class="stat" markdown="1">
-3 DEXs
-{: .stat-n}
-Designated market maker
-{: .stat-l}
-Market maker for RWA (real-world assets) on three on-chain perp exchanges, providing primary liquidity for tokenized equities and crypto.
-{: .stat-p}
-</div>
-
-</div>
 
 </section>
 
@@ -106,49 +62,45 @@ Market maker for RWA (real-world assets) on three on-chain perp exchanges, provi
 ## Latest research
 {: .label}
 
-**EvoQuantLab** (arXiv; under review at ICLR 2027). Self-evolving AI agents for quant research: an inner loop searches for signals, an outer loop audits each round for overfitting and rewrites the research rules for the next. Run on the same model and data as four leading AI research agents, it delivered the best out-of-sample return in all three markets tested: China equities, US equities and crypto.
-{: .building-text}
+**[EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research](https://arxiv.org/abs/2610.17130)** (arXiv, 2026).
+
+Our research explores how an automated quant system can improve its own research process. An inner loop uses genetic programming to search for factors; an outer loop diagnoses results and evolves the search methods.
+
+[Read the paper](https://arxiv.org/abs/2610.17130) · [More on my research](/research/)
+{: .more}
 
 </section>
 
-<section class="questions" markdown="1">
+<section class="record" markdown="1">
 
-## Open questions
+## Background
 {: .label}
 
-- **Can a check carry information** when a candidate's evidence is the same size as the noise the search itself produces?
-- **Where is the line** between what the system may rewrite and what it must not, and how do you know, from inside, that it was crossed?
-- **How fast can a judge be without lying?** Replays, simulators and partial builds are cheap and repeatable, and the agent will learn to fool them. What must be measured, and what may be simulated?
-{: .qs}
+Before QE, I founded and led strategy research at **Futuristic Group** (2025–2026), building systematic and prediction-market trading strategies. Earlier, I worked on reinforcement learning for FX trading at **Graphen**, out-of-distribution robustness at **Megvii**, and recommendation algorithms at **Alibaba**.
 
-[Longer statements on the research page.](/research/)
+I am a **Ph.D. candidate at HKUST**, researching **AI for finance**. I hold an M.S. in Computer Science from **Columbia**, a B.Eng. in Engineering Physics from **Tsinghua**, and a B.S. in Economics from **Peking University** as a double major.
+
+[Full CV](/cv/) · [Download CV](/files/cv.pdf)
 {: .more}
 
 </section>
 
 <section class="join" markdown="1">
 
-## Join us
+## Build with us
 {: .label}
 
 <div class="roles" markdown="1">
-HFT trader
+AI research
 {: .role}
-AI researcher
+Agent infrastructure
 {: .role}
-Chief Scientist
+Trading
 {: .role}
 </div>
 
-If one of the questions above is already yours, especially if you think we have it wrong, write to me.
+I am looking for researchers and engineers who want to make agents more capable through large-scale experimentation, and exceptional traders who can help turn that capability into a global trading business.
 
 [Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
-
-</section>
-
-<section class="background" markdown="1">
-
-Earlier: reinforcement learning for high-frequency FX trading at Graphen, under Ching-Yung Lin (former Chief Scientist of IBM); out-of-distribution robustness for computer-vision models at Megvii; recommendation algorithms at Alibaba. HKUST (Ph.D. candidate) · Columbia (M.S. Computer Science) · Peking University (B.S. Economics) · Tsinghua (B.Eng. Engineering Physics). [Full CV](/cv/)
-{: .bg}
 
 </section>
