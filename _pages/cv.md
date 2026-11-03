@@ -28,7 +28,7 @@ redirect_from:
 <section class="section cv-section" aria-labelledby="experience-title">
   <h2 id="experience-title">Experience</h2>
   <div>
-    <div class="cv-entry"><h3>Quanta Edge</h3><p class="entry-meta">Chief Executive Officer · 07/2026–present</p><ul><li>Leading the firm’s work on agents and research: parallel strategy discovery, shared research infrastructure and self-improving research systems.</li></ul></div>
+    <div class="cv-entry"><h3>Quanta Edge</h3><p class="entry-meta">Co-founder &amp; Chief Executive Officer · 07/2026–present</p><ul><li>Leading the firm’s work on agents and research: parallel strategy discovery, shared research infrastructure and self-improving research systems.</li></ul></div>
     <div class="cv-entry"><h3>Futuristic Group Ltd</h3><p class="entry-meta">Founder &amp; Chief Executive Officer · 03/2025–06/2026</p><ul><li>Founded a systematic proprietary trading business and led its strategy research.</li><li>Built research and trading systems for systematic and prediction-market strategies.</li></ul></div>
     <div class="cv-entry"><h3>Alibaba Group</h3><p class="entry-meta">Machine Learning Product Manager · 08/2020–12/2021</p><p>Recommendation algorithms for live-streaming e-commerce.</p></div>
     <div class="cv-entry"><h3>Graphen, Inc.</h3><p class="entry-meta">Deep Learning Researcher · 01/2020–08/2020</p><p>Reinforcement learning for FX trading.</p></div>
