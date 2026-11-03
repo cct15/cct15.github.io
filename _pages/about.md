@@ -1,114 +1,84 @@
 ---
+layout: personal
 permalink: /
 title: "Chutian Chen (Curtis)"
-excerpt: "Building Quanta Edge, a next-generation global trading firm. Massively parallel AI research, real hardware experiments and shared learning."
+excerpt: "I’m Curtis Chen. I work on self-improving research agents, parallel discovery and evaluation that makes research reliable."
 author_profile: false
+body_class: home
 redirect_from:
   - /about/
   - /about.html
 ---
-
-<section class="hero" markdown="1">
-
-<div class="identity" markdown="1">
-
-![Chutian Chen](/images/profile_sq.jpg){: .headshot}
-
-<div class="identity-text" markdown="1">
-Chutian Chen (Curtis)
-{: .name}
-CEO, Quanta Edge · Hong Kong · [cchencs@connect.ust.hk](mailto:cchencs@connect.ust.hk)
-{: .kicker}
-</div>
-
-</div>
-
-A small team. Thousands of agents. A global trading firm.
-{: .vision}
-
-This is the vision I am building toward at **Quanta Edge**: a few exceptional people build the system; agents research, experiment and trade across global markets.
-{: .lede}
-
-My focus is the system that makes this scale: massively parallel research, automated experiments on real hardware, and learning that carries from one market to the next.
-{: .lede}
-
-[Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
-{: .hero-actions}
-
+<section class="hero" aria-labelledby="intro-title">
+  <div>
+    <p class="eyebrow">Chutian Chen (Curtis)</p>
+    <h1 id="intro-title">I study how agents learn to research.</h1>
+    <p class="intro">I’m Curtis Chen, CEO of <strong>Quanta Edge</strong>. I’m also a Ph.D. candidate at HKUST, researching AI for finance.</p>
+    <p class="personal-note">I’m interested in research that improves as it runs: agents exploring ideas in parallel, sharing what they learn and testing whether their methods are getting better.</p>
+    <div class="actions">
+      <a class="button" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="#background">My background <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+  <figure class="portrait">
+    <img src="{{ '/images/profile_sq.jpg' | relative_url }}" alt="Curtis Chen" width="256" height="320">
+    <figcaption>Hong Kong.</figcaption>
+  </figure>
 </section>
 
-<section class="building" markdown="1">
-
-## What I am building
-{: .label}
-
-**Quanta Edge** is a next-generation proprietary trading firm. We are building one shared system for strategy discovery, software and hardware design, and live trading. Our conviction is that an entire firm built around agents can improve faster with every experiment, and expand across markets with a small team.
-{: .building-text}
-
-<figure class="figure">
-<img class="engine-desktop" src="/images/engine.svg?v=20261016" alt="The system we are building: parallel agent research and experiments in software and on real FPGA boards feed a selected live trading portfolio. Shared learning improves the next round." />
-<div class="engine-mobile" aria-label="Target operating model">
-  <div><span>Agent research</span><strong>Parallel discovery</strong><p>Strategies, markets and reusable infrastructure</p></div>
-  <span class="engine-arrow" aria-hidden="true">↓</span>
-  <div><span>Experiments</span><strong>Test in parallel</strong><p>Software, simulation and real FPGA boards</p></div>
-  <span class="engine-arrow" aria-hidden="true">↓</span>
-  <div><span>Live trading</span><strong>Selected portfolio</strong><p>Validated strategies and market expansion</p></div>
-  <p class="engine-feedback">↻ Shared learning improves the next round</p>
-</div>
-<figcaption>The system we are building: more experiments, shared learning, repeatable market expansion.</figcaption>
-</figure>
-
-- **Parallel discovery.** Agents explore different strategies and markets at the same time, reusing data tools, research methods and execution infrastructure.
-- **Real hardware experiments.** Automation extends beyond software and simulation. Agents jointly optimise strategies and FPGA designs through deployment and testing on real boards.
-- **Shared learning.** Research results, hardware measurements and live trading feedback improve the system. Better foundation models can then accelerate the same workflows across markets.
-{: .bets}
-
+<section class="section" aria-labelledby="perspective-title">
+  <div class="section-heading">
+    <p class="eyebrow">01 / Perspective</p>
+    <div>
+      <h2 id="perspective-title">Why I work on research agents.</h2>
+      <p>I expect agents to do research better than the best people soon. My reasoning is that they can explore different ideas at the same time, share discoveries and keep revising how they work. Useful knowledge need not remain limited to one researcher’s time or experience.</p>
+      <p>But more experiments only help if the learning is real. I want to understand how agents can recognise a failed approach, carry a useful lesson into the next experiment and demonstrate that a change actually improves their research.</p>
+    </div>
+  </div>
 </section>
 
-<section class="paper" markdown="1">
-
-## Latest research
-{: .label}
-
-**[EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research](https://arxiv.org/abs/2610.17130)** (arXiv, 2026).
-
-Our research explores how an automated quant system can improve its own research process. An inner loop uses genetic programming to search for factors; an outer loop diagnoses results and evolves the search methods.
-
-[Read the paper](https://arxiv.org/abs/2610.17130) · [More on my research](/research/)
-{: .more}
-
+<section class="section" aria-labelledby="research-title">
+  <div class="section-heading">
+    <p class="eyebrow">02 / Questions</p>
+    <h2 id="research-title">What would make an agent a better researcher?</h2>
+  </div>
+  <div class="research-directions">
+    <article><h3>Learning how to search</h3><p>I study agents that improve their research methods, so an experiment can teach them how to ask a better question next time.</p></article>
+    <article><h3>Learning from each other</h3><p>I’m interested in parallel searches that share useful discoveries while preserving different approaches to a problem.</p></article>
+    <article><h3>Knowing what holds up</h3><p>I want evaluation to distinguish a lasting improvement from a result that only looks convincing in the experiments used to find it.</p></article>
+  </div>
 </section>
 
-<section class="record" markdown="1">
-
-## Background
-{: .label}
-
-Before QE, I founded and led strategy research at **Futuristic Group** (2025–2026), building systematic and prediction-market trading strategies. Earlier, I worked on reinforcement learning for FX trading at **Graphen**, out-of-distribution robustness at **Megvii**, and recommendation algorithms at **Alibaba**.
-
-I am a **Ph.D. candidate at HKUST**, researching **AI for finance**. I hold an M.S. in Computer Science from **Columbia**, a B.Eng. in Engineering Physics from **Tsinghua**, and a B.S. in Economics from **Peking University** as a double major.
-
-[Full CV](/cv/) · [Download CV](/files/cv.pdf)
-{: .more}
-
+<section class="section" aria-labelledby="publication-title">
+  <div class="section-heading">
+    <p class="eyebrow">03 / Publication</p>
+    <h2 id="publication-title">My work on learning to research.</h2>
+  </div>
+  <div class="publication-block">
+    <p class="publication-meta">arXiv · 2026</p>
+    <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
+    <p>I’m a co-author of EvoQuantLab. The paper is one place where I explore these questions in quantitative research.</p>
+    <div class="actions"><a class="text-link" href="https://arxiv.org/abs/2610.17130">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/research/' | relative_url }}">More about my research <span aria-hidden="true">→</span></a></div>
+  </div>
 </section>
 
-<section class="join" markdown="1">
+<section id="background" class="section" aria-labelledby="background-title">
+  <div class="section-heading"><p class="eyebrow">04 / Background</p><h2 id="background-title">My path through research and building.</h2></div>
+  <div class="background-grid">
+    <div><h3>Earlier work</h3><p>Before my current role, I founded Futuristic Group and led its strategy research. My earlier work included recommendation algorithms at Alibaba, reinforcement learning for FX at Graphen and out-of-distribution robustness at Megvii.</p><a class="text-link" href="{{ '/cv/' | relative_url }}">Full experience <span aria-hidden="true">→</span></a></div>
+    <div><h3>My academic path</h3><p>I’m a Ph.D. candidate at HKUST, researching AI for finance. I studied computer science at Columbia, engineering physics at Tsinghua, and economics at Peking University.</p><a class="text-link" href="{{ '/files/cv.pdf' | relative_url }}">Download my CV <span aria-hidden="true">↓</span></a></div>
+  </div>
+</section>
 
-## Build with us
-{: .label}
+<section id="quanta-edge" class="section" aria-labelledby="company-title">
+  <div class="panel">
+    <h3 id="company-title">Quanta Edge</h3>
+    <p>A trading firm that scales on compute.</p>
+    <div class="actions"><a class="text-link" href="https://quanta-edge.com">Visit Quanta Edge <span aria-hidden="true">↗</span></a><a class="text-link" href="https://quanta-edge.com/about/#team">Meet the team <span aria-hidden="true">↗</span></a></div>
+  </div>
+</section>
 
-<div class="roles" markdown="1">
-AI research
-{: .role}
-Agent infrastructure
-{: .role}
-Trading
-{: .role}
-</div>
-
-I am looking for researchers and engineers who want to make agents more capable through large-scale experimentation, and exceptional traders who can help turn that capability into a global trading business.
-
-[Write to me](mailto:cchencs@connect.ust.hk){: .btn .btn--primary}
-
+<section class="contact-section" aria-labelledby="contact-title">
+  <div><h2 id="contact-title">I’m always glad to compare notes.</h2><p>I’d like to hear from people working on agents, research methods and reliable experimentation.</p></div>
+  <a class="button" href="mailto:cchencs@connect.ust.hk">Write to me <span aria-hidden="true">↗</span></a>
 </section>

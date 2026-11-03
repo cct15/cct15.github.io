@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | escape }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/profile_sq.jpg' | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+</head>
+<body class="{{ page.body_class | default: '' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">Curtis Chen<span class="name-dot" aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Chutian Chen (Curtis) <span aria-hidden="true">·</span> Hong Kong</p>
+      <div><a href="mailto:cchencs@connect.ust.hk">Email</a><a href="https://github.com/cct15">GitHub</a><a href="{{ '/cv/' | relative_url }}">CV</a></div>
+    </div>
+  </footer>
+</body>
+</html>
