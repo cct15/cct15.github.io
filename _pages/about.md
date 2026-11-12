@@ -2,7 +2,7 @@
 layout: personal
 permalink: /
 title: "Chutian Chen (Curtis)"
-excerpt: "I’m Curtis Chen. I work on self-improving research agents, parallel discovery and evaluation that makes research reliable."
+excerpt: "I’m Curtis Chen. I research deep learning and AI agents in finance, including how agents learn from experiments."
 author_profile: false
 body_class: home
 redirect_from:
@@ -12,9 +12,9 @@ redirect_from:
 <section class="hero" aria-labelledby="intro-title">
   <div>
     <p class="eyebrow">Chutian Chen (Curtis)</p>
-    <h1 id="intro-title">I study how agents learn to research.</h1>
-    <p class="intro">I’m Curtis Chen, CEO of <strong>Quanta Edge</strong>. I’m also a Ph.D. candidate at HKUST, researching AI for finance.</p>
-    <p class="personal-note">I’m interested in research that improves as it runs: agents exploring ideas in parallel, sharing what they learn and testing whether their methods are getting better.</p>
+    <h1 id="intro-title">Can an agent tell when it’s wrong?</h1>
+    <p class="intro">I’m Curtis Chen, Co-founder and CEO of <strong>Quanta Edge</strong> and a Ph.D. candidate at HKUST. I research deep learning and AI agents in finance.</p>
+    <p class="personal-note">I study how agents test their ideas and change course when they fail. A price prediction puts an agent’s judgment on record so we can check it against what happens next.</p>
     <div class="actions">
       <a class="button" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
       <a class="text-link" href="#background">My background <span aria-hidden="true">↓</span></a>
@@ -26,46 +26,35 @@ redirect_from:
   </figure>
 </section>
 
-<section class="section" aria-labelledby="perspective-title">
-  <div class="section-heading">
-    <p class="eyebrow">01 / Perspective</p>
-    <div>
-      <h2 id="perspective-title">Why I work on research agents.</h2>
-      <p>I expect agents to do research better than the best people soon. My reasoning is that they can explore different ideas at the same time, share discoveries and keep revising how they work. Useful knowledge need not remain limited to one researcher’s time or experience.</p>
-      <p>But more experiments only help if the learning is real. I want to understand how agents can recognise a failed approach, carry a useful lesson into the next experiment and demonstrate that a change actually improves their research.</p>
-    </div>
-  </div>
-</section>
-
 <section class="section" aria-labelledby="research-title">
   <div class="section-heading">
-    <p class="eyebrow">02 / Questions</p>
-    <h2 id="research-title">What would make an agent a better researcher?</h2>
+    <p class="eyebrow">Research questions</p>
+    <h2 id="research-title">What should an agent learn from an experiment?</h2>
   </div>
   <div class="research-directions">
-    <article><h3>Learning how to search</h3><p>I study agents that improve their research methods, so an experiment can teach them how to ask a better question next time.</p></article>
-    <article><h3>Learning from each other</h3><p>I’m interested in parallel searches that share useful discoveries while preserving different approaches to a problem.</p></article>
-    <article><h3>Knowing what holds up</h3><p>I want evaluation to distinguish a lasting improvement from a result that only looks convincing in the experiments used to find it.</p></article>
+    <article><h3>Where else to look</h3><p>Can agents share what they find while pursuing genuinely different ideas?</p></article>
+    <article><h3>How much to trust a result</h3><p>Does a finding hold up on fresh evidence? Does the agent’s confidence reflect how often it gets things right?</p></article>
+    <article><h3>What to change next</h3><p>Can an agent diagnose a failure and use it to design a better experiment?</p></article>
   </div>
 </section>
 
 <section class="section" aria-labelledby="publication-title">
   <div class="section-heading">
-    <p class="eyebrow">03 / Publication</p>
-    <h2 id="publication-title">My work on learning to research.</h2>
+    <p class="eyebrow">Selected publication</p>
+    <h2 id="publication-title">EvoQuantLab</h2>
   </div>
   <div class="publication-block">
     <p class="publication-meta">arXiv · 2026</p>
     <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
-    <p>I’m a co-author of EvoQuantLab. The paper is one place where I explore these questions in quantitative research.</p>
+    <p>In this paper, my co-authors and I explore how an agent can use the results of a quantitative search to improve the search procedure itself.</p>
     <div class="actions"><a class="text-link" href="https://arxiv.org/abs/2610.17130">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/research/' | relative_url }}">More about my research <span aria-hidden="true">→</span></a></div>
   </div>
 </section>
 
 <section id="background" class="section" aria-labelledby="background-title">
-  <div class="section-heading"><p class="eyebrow">04 / Background</p><h2 id="background-title">My path through research and building.</h2></div>
+  <div class="section-heading"><p class="eyebrow">Background</p><h2 id="background-title">My path to AI for finance</h2></div>
   <div class="background-grid">
-    <div><h3>Earlier work</h3><p>Before my current role, I founded Futuristic Group and led its strategy research. My earlier work included recommendation algorithms at Alibaba, reinforcement learning for FX at Graphen and out-of-distribution robustness at Megvii.</p><a class="text-link" href="{{ '/cv/' | relative_url }}">Full experience <span aria-hidden="true">→</span></a></div>
+    <div><h3>Earlier work</h3><p>I founded Futuristic Group during my Ph.D. and led its strategy research. My earlier work included recommendation algorithms at Alibaba, reinforcement learning for FX at Graphen and out-of-distribution robustness at Megvii.</p><a class="text-link" href="{{ '/cv/' | relative_url }}">Full experience <span aria-hidden="true">→</span></a></div>
     <div><h3>My academic path</h3><p>I’m a Ph.D. candidate at HKUST, researching AI for finance. I studied computer science at Columbia, engineering physics at Tsinghua, and economics at Peking University.</p><a class="text-link" href="{{ '/files/cv.pdf' | relative_url }}">Download my CV <span aria-hidden="true">↓</span></a></div>
   </div>
 </section>
@@ -79,6 +68,6 @@ redirect_from:
 </section>
 
 <section class="contact-section" aria-labelledby="contact-title">
-  <div><h2 id="contact-title">I’m always glad to compare notes.</h2><p>I’d like to hear from people working on agents, research methods and reliable experimentation.</p></div>
+  <div><h2 id="contact-title">Get in touch</h2><p>I’d like to hear from people working on research agents, independent evaluation or learning from failed experiments.</p></div>
   <a class="button" href="mailto:cchencs@connect.ust.hk">Write to me <span aria-hidden="true">↗</span></a>
 </section>
