@@ -46,7 +46,7 @@ redirect_from:
   <div class="publication-block">
     <p class="publication-meta">arXiv · 2026</p>
     <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
-    <p>In this paper, my co-authors and I explore how an agent can use the results of a quantitative search to improve the search procedure itself.</p>
+    <p>In this paper, my co-authors and I study how agents can learn from past experiments and test whether what they learn helps on unseen data.</p>
     <div class="actions"><a class="text-link" href="https://arxiv.org/abs/2610.17130">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/research/' | relative_url }}">More about my research <span aria-hidden="true">→</span></a></div>
   </div>
 </section>
@@ -62,7 +62,7 @@ redirect_from:
 <section id="quanta-edge" class="section" aria-labelledby="company-title">
   <div class="panel">
     <h3 id="company-title">Quanta Edge</h3>
-    <p>A trading firm that scales on compute.</p>
+    <p>A Hong Kong trading firm building a trading autopilot with AI agents.</p>
     <div class="actions"><a class="text-link" href="https://quanta-edge.com">Visit Quanta Edge <span aria-hidden="true">↗</span></a><a class="text-link" href="https://quanta-edge.com/about/#team">Meet the team <span aria-hidden="true">↗</span></a></div>
   </div>
 </section>

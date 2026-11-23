@@ -2,7 +2,7 @@
 layout: personal
 title: "CV"
 permalink: /cv/
-excerpt: "Chutian Chen (Curtis): CEO of Quanta Edge, focused on agents and research, and Ph.D. candidate at HKUST."
+excerpt: "Chutian Chen (Curtis) is Co-founder and CEO of Quanta Edge and a Ph.D. candidate at HKUST, researching deep learning and AI agents in finance."
 author_profile: false
 redirect_from:
   - /resume
@@ -11,7 +11,7 @@ redirect_from:
   <p class="eyebrow">Background and experience</p>
   <h1>Curriculum vitae</h1>
   <p class="cv-identity">Chutian Chen (Curtis) · Hong Kong</p>
-  <p class="lead">I’m CEO of Quanta Edge, focused on agents and research, and a Ph.D. candidate at HKUST researching AI for finance.</p>
+  <p class="lead">I’m Co-founder and CEO of Quanta Edge and a Ph.D. candidate at HKUST, researching deep learning and AI agents in finance.</p>
   <div class="cv-contact"><a href="mailto:cchencs@connect.ust.hk">cchencs@connect.ust.hk</a><a href="https://github.com/cct15">GitHub</a><a href="{{ '/files/cv.pdf' | relative_url }}">Download PDF <span aria-hidden="true">↓</span></a></div>
 </header>
 

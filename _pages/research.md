@@ -33,10 +33,10 @@ redirect_from:
   <div class="section-heading"><p class="eyebrow">Selected publication</p><h2 id="publication-title">EvoQuantLab</h2></div>
   <div class="publication-block">
     <p class="publication-meta">arXiv · 2026</p>
-    <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
+    <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130v2">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
     <p class="authors">Haolin Yang, Zhiqiang Qian, <strong>Chutian Chen</strong>, Jipeng Zhang, Zhenghao Zhu, Tangjia Deng, Jian Xie, Shuaishuai Gong, Yike Guo and Sirui Han.</p>
-    <p>As a co-author, I explore how two feedback loops can work together. One searches for candidate factors. The other uses experiment records to revise how that search works.</p>
-    <a class="button" href="https://arxiv.org/abs/2610.17130">Read on arXiv <span aria-hidden="true">↗</span></a>
+    <p>In EvoQuantLab, my co-authors and I use one loop to search for candidate factors and another to review the evidence and improve how the search works. We evaluate the resulting factors on data held out from discovery.</p>
+    <a class="button" href="https://arxiv.org/abs/2610.17130v2">Read on arXiv <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
