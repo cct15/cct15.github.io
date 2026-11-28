@@ -12,9 +12,9 @@ redirect_from:
 <section class="hero" aria-labelledby="intro-title">
   <div>
     <p class="eyebrow">Chutian Chen (Curtis)</p>
-    <h1 id="intro-title">Can an agent tell when it’s wrong?</h1>
-    <p class="intro">I’m Curtis Chen, Co-founder and CEO of <strong>Quanta Edge</strong> and a Ph.D. candidate at HKUST. I research deep learning and AI agents in finance.</p>
-    <p class="personal-note">I study how agents test their ideas and change course when they fail. A price prediction puts an agent’s judgment on record so we can check it against what happens next.</p>
+    <h1 id="intro-title">I study how AI agents learn from experiments.</h1>
+    <p class="intro">I’m Curtis Chen, Co-founder and CEO of <strong>Quanta Edge</strong> and a Ph.D. candidate at HKUST.</p>
+    <p class="personal-note">I use financial markets to study how agents test ideas and improve their research methods. Recording a price prediction before the outcome gives me a way to check it against new data.</p>
     <div class="actions">
       <a class="button" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
       <a class="text-link" href="#background">My background <span aria-hidden="true">↓</span></a>
@@ -29,12 +29,12 @@ redirect_from:
 <section class="section" aria-labelledby="research-title">
   <div class="section-heading">
     <p class="eyebrow">Research questions</p>
-    <h2 id="research-title">What should an agent learn from an experiment?</h2>
+    <h2 id="research-title">Search, evaluation and correction</h2>
   </div>
   <div class="research-directions">
     <article><h3>Where else to look</h3><p>Can agents share what they find while pursuing genuinely different ideas?</p></article>
     <article><h3>How much to trust a result</h3><p>Does a finding hold up on fresh evidence? Does the agent’s confidence reflect how often it gets things right?</p></article>
-    <article><h3>What to change next</h3><p>Can an agent diagnose a failure and use it to design a better experiment?</p></article>
+    <article><h3>What to change next</h3><p>Can an agent diagnose a failed experiment, change how it searches and make better use of evidence on a different task?</p></article>
   </div>
 </section>
 
@@ -45,9 +45,9 @@ redirect_from:
   </div>
   <div class="publication-block">
     <p class="publication-meta">arXiv · 2026</p>
-    <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
-    <p>In this paper, my co-authors and I study how agents can learn from past experiments and test whether what they learn helps on unseen data.</p>
-    <div class="actions"><a class="text-link" href="https://arxiv.org/abs/2610.17130">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/research/' | relative_url }}">More about my research <span aria-hidden="true">→</span></a></div>
+    <h3 class="paper-title"><a href="https://arxiv.org/abs/2610.17130v2">EvoQuantLab: Training-Free Dual-Loop Evolution for Auditable Quantitative Research</a></h3>
+    <p>In EvoQuantLab, my co-authors and I use one loop to search for candidate factors and a second to revise how the next search runs. We test the resulting factors on held-out data.</p>
+    <div class="actions"><a class="text-link" href="https://arxiv.org/abs/2610.17130v2">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/research/' | relative_url }}">More about my research <span aria-hidden="true">→</span></a></div>
   </div>
 </section>
 
