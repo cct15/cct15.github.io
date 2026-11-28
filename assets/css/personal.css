@@ -180,6 +180,7 @@ img { display: block; max-width: 100%; }
   .research-directions { gap: 30px; }
   .direction-index { margin-bottom: 10px; }
   .publication-block .paper-title { font-size: 27px; }
+  .home .publication-block .paper-title a { font-size: clamp(20px, 6vw, 27px); text-wrap: balance; }
   .research-principle { padding: 24px; }
   .cv-identity { font-size: 19px; }
   .cv-contact { font-size: 14px; }
